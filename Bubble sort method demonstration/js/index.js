@@ -55,8 +55,20 @@ var bubble = (function() {
 	nbar.appendChild(fragment);
 	fragment = null;
 
+	/*盒子初始化canvas动画*/
+	var cxt = document.getElementById('myCanvas').getContext('2d');
+	cxt.beginPath();
+	cxt.strokeStyle = '#fff';
+	cxt.lineWidth = 10;
+	cxt.moveTo(0,600);
+	cxt.lineTo(0,0);
+	cxt.lineTo(400,0);
+	cxt.lineTo(400,600);
+	cxt.closePath();
+	cxt.stroke();
 
-	/*初始化动画*/
+
+	/*数据初始化动画*/
 	var lis = document.querySelectorAll('.nbar li');
 	each(lis, true, function(el, index) {
 		setTimeout(function() {
@@ -67,6 +79,7 @@ var bubble = (function() {
 		}, 100 * (lis.length - index));
 
 	})
+
 
 
 	return {

@@ -10,7 +10,9 @@ body{font: bold 14px '\5FAE\8F6F\96C5\9ED1';}
 	-moz-box-shadow:0 0 4px #0099ff;
 	box-shadow:0 0 10px #0099ff;
 }
-.nbar{padding: 10px;}
+.nbar{padding: 10px;
+	display: none;
+}
 .nbar li{background-color: #5BFA49;margin: 5px 0;height: 20px;border-radius:0 10px 10px 0;	
 	transform: scale(5,7) translate(300px,-100px);
 	opacity: 0;
@@ -18,6 +20,73 @@ body{font: bold 14px '\5FAE\8F6F\96C5\9ED1';}
 	transition:all ease-in-out .5s ;
 }
 .nbar li span{position: relative;left: -40px;}
+
+/*按钮动画-------------------------------------------------------------------*/
+
+
+@keyframes start{
+	from:{
+	    -moz-box-shadow: 0px 0px 1px #0099ff;
+	    -webkit-box-shadow: 0px 0px 1px #0099ff;
+	    box-shadow: 0px 0px 1px #0099ff;/*主要应用阴影*/
+	}
+
+	to{
+	    -moz-box-shadow: 0px 0px 40px #0099ff;
+	    -webkit-box-shadow: 0px 0px 40px #0099ff;
+	    box-shadow: 0px 0px 40px #0099ff;/*主要应用阴影*/
+	}
+	
+}
+
+@-webkit-keyframes start{
+	from:{
+	    -moz-box-shadow: 0px 0px 1px #0099ff;
+	    -webkit-box-shadow: 0px 0px 1px #0099ff;
+	    box-shadow: 0px 0px 1px #0099ff;/*主要应用阴影*/
+	}
+
+	to{
+	    -moz-box-shadow: 0px 0px 40px #0099ff;
+	    -webkit-box-shadow: 0px 0px 40px #0099ff;
+	    box-shadow: 0px 0px 40px #0099ff;/*主要应用阴影*/
+	}
+	
+}
+
+@-moz-keyframes start{
+	from:{
+	    -moz-box-shadow: 0px 0px 1px #0099ff;
+	    -webkit-box-shadow: 0px 0px 1px #0099ff;
+	    box-shadow: 0px 0px 1px #0099ff;/*主要应用阴影*/
+	}
+
+	to{
+	    -moz-box-shadow: 0px 0px 40px #0099ff;
+	    -webkit-box-shadow: 0px 0px 40px #0099ff;
+	    box-shadow: 0px 0px 40px #0099ff;/*主要应用阴影*/
+	}
+	
+}
+
+@-o-keyframes start{
+	from:{
+	    -moz-box-shadow: 0px 0px 1px #0099ff;
+	    -webkit-box-shadow: 0px 0px 1px #0099ff;
+	    box-shadow: 0px 0px 1px #0099ff;/*主要应用阴影*/
+	}
+
+	to{
+	    -moz-box-shadow: 0px 0px 40px #0099ff;
+	    -webkit-box-shadow: 0px 0px 40px #0099ff;
+	    box-shadow: 0px 0px 40px #0099ff;/*主要应用阴影*/
+	}
+	
+}
+
+/*--------------------------------------------------------------------------------------*/
+/*start 按钮*/
+
 #start{position: absolute;bottom:10px; left: 50%; width: 60px;height: 60px;
 	background-color: #fff;border-radius: 50%;
 	margin-left: -30px;
@@ -29,6 +98,13 @@ body{font: bold 14px '\5FAE\8F6F\96C5\9ED1';}
     -webkit-transition: -webkit-box-shadow 0.5s ease-out;;
     -moz-transition: -moz-box-shadow 0.5s ease-out;
     -o-transition: box-shadow 0.5s ease-out;
+    transition: box-shadow 0.5s ease-out;
+
+    /*animation*/
+    animation: start 2s alternate infinite;
+	-moz-animation: start 2s alternate infinite;	/* Firefox */
+	-webkit-animation: start 2s alternate infinite;	/* Safari 和 Chrome */
+	-o-animation: start 5s alternate infinite;	/* Opera */
 }
 
 
@@ -37,3 +113,12 @@ body{font: bold 14px '\5FAE\8F6F\96C5\9ED1';}
     -webkit-box-shadow: 0px 0px 15px #0099ff;
     box-shadow: 0px 0px 15px #0099ff;/*主要应用阴影*/
 }
+
+
+
+/*盒子初始化画板*/
+#myCanvas{
+
+	/*background-color:#fff;*/
+}
+
