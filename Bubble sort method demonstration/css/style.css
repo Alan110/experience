@@ -2,8 +2,14 @@
 html,body{height: 100%;overflow: hidden;}
 body{font: bold 14px '\5FAE\8F6F\96C5\9ED1';}
 *{margin:0;padding: 0;}li{list-style: none;}
-.wrap{background-color: #3385FF;position: relative;}
-#showbox{width: 400px;height: 600px;background-color: #4A9FB0;position: absolute;top: 0;bottom:0;margin: auto;margin-left: 250px;}
+.wrap{background-color: #000/*#3385FF*/;position: relative;}
+#showbox{width: 400px;height: 600px;/*background-color: #4A9FB0;*/
+	position: absolute;top: 0;bottom:0;margin: auto;margin-left: 250px;
+
+	-webkit-box-shadow:0 0 4px #0099ff;
+	-moz-box-shadow:0 0 4px #0099ff;
+	box-shadow:0 0 10px #0099ff;
+}
 .nbar{padding: 10px;}
 .nbar li{background-color: #5BFA49;margin: 5px 0;height: 20px;border-radius:0 10px 10px 0;	
 	transform: scale(5,7) translate(300px,-100px);
@@ -17,4 +23,17 @@ body{font: bold 14px '\5FAE\8F6F\96C5\9ED1';}
 	margin-left: -30px;
 	text-align: center;
 	line-height: 60px;
+	cursor: pointer;
+
+     /*Transition*/
+    -webkit-transition: -webkit-box-shadow 0.5s ease-out;;
+    -moz-transition: -moz-box-shadow 0.5s ease-out;
+    -o-transition: box-shadow 0.5s ease-out;
+}
+
+
+#start:hover{
+    -moz-box-shadow: 0px 0px 15px #0099ff;
+    -webkit-box-shadow: 0px 0px 15px #0099ff;
+    box-shadow: 0px 0px 15px #0099ff;/*主要应用阴影*/
 }

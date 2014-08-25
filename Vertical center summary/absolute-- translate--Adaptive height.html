@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+	.div1{
+		width: 500px;height: 500px;
+		background-color: blue;
+		position: relative;
+	}
+	.div2{
+		position: absolute;
+		background-color: red;
+		top: 50%;
+		left: 50%;
+		transform:translate(-50%,-50%); 
+		/*应用css3 translate属性是相对于自身的，此法>=ie9，且宽高自适应*/
+	}
+</style>
+<body>
+	<div class="div1">
+		<div class="div2">
+			fdsfsdffdf
+			fdsfdsfsdff
+		</div>
+	</div>
+</body>
+</html>
