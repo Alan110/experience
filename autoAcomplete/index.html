@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{margin: 0;padding: 0;}
+        li{list-style: none;}
+        .div1{width:200px;margin: 100px  auto;}
+        #data{width: 200px;border: 1px solid ;position: relative;top: 2px;display: none;}
+        #data li{line-height: 25px;}
+        #data li:hover{background-color: #919191;cursor: pointer;}
+    </style>
+</head>
+<body>
+
+    <div class="div1">
+        <input style="width: 200px;outline: none;" type="text" id="text"/>
+        <ul id="data">
+
+        </ul>
+    </div>
+
+<script src="js/autoAcomplete.js"></script>
+<script>
+    autoAcomplete('text','data');
+</script>
+</body>
+</html>

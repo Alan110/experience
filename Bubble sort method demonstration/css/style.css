@@ -6,12 +6,24 @@ body{font: bold 14px '\5FAE\8F6F\96C5\9ED1';}
 #showbox{width: 400px;height: 600px;/*background-color: #4A9FB0;*/
 	position: absolute;top: 0;bottom:0;margin: auto;margin-left: 250px;
 
-	-webkit-box-shadow:0 0 4px #0099ff;
+     /*Transition*/
+    -webkit-transition: -webkit-box-shadow 1s ease-out;;
+    -moz-transition: -moz-box-shadow 1s ease-out;
+    -o-transition: box-shadow 1s ease-out;
+    transition: box-shadow .5s ease-out;
+
+/*	-webkit-box-shadow:0 0 4px #0099ff;
 	-moz-box-shadow:0 0 4px #0099ff;
-	box-shadow:0 0 10px #0099ff;
+	box-shadow:0 0 10px #0099ff;*/
 }
 .nbar{padding: 10px;
-	display: none;
+	opacity: 0;
+
+	     /*Transition*/
+    -webkit-transition: all 1s ease-out;;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
 }
 .nbar li{background-color: #5BFA49;margin: 5px 0;height: 20px;border-radius:0 10px 10px 0;	
 	transform: scale(5,7) translate(300px,-100px);
@@ -118,7 +130,14 @@ body{font: bold 14px '\5FAE\8F6F\96C5\9ED1';}
 
 /*盒子初始化画板*/
 #myCanvas{
-
-	/*background-color:#fff;*/
+	position: absolute;
+	left: 0;
+	top: 0;
+	transform:scale(1,1);
+     /*Transition*/
+    -webkit-transition: all 1s ease-out;;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
 }
 
