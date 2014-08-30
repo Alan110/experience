@@ -1,0 +1,82 @@
+<!doctype html>
+<html dir="ltr" lang="zh-CN">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <style type="text/css">
+    	*{padding: 0;margin: 0}
+    	img{border:none;}
+    	li{list-style: none;}
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>富文本编辑器</title>
+    <style type="text/css">
+    	.wrap{width: 700px;margin: 0 auto;}
+    	#content{height: 400px;border:1px solid;width: 100%;}
+    </style>
+</head>
+<body>
+
+
+<div class="wrap">
+	<div id="content"></div>
+	<form action="#" id="rich-edittor">
+	    <div id="editor">
+	        <span class="button" title="bold" unselectable="on">加粗</span>
+	        <span class="button" title="italic" unselectable="on">斜体</span>
+	        <span class="button" title="underline" unselectable="on">下划</span>
+	        <span class="button" title="justifycenter" unselectable="on">居中</span>
+	        <span class="button" title="justifyleft" unselectable="on">居左</span>
+	        <span class="button" title="justifyright" unselectable="on">居右</span>
+	        <span class="button" title="outdent" unselectable="on">悬挂</span>
+	        <span class="button" title="indent" unselectable="on">缩进</span>
+	        <span class="button" title="insertunorderedlist" unselectable="on">无序</span>
+	        <span class="button" title="insertorderedlist" unselectable="on">有序</span>
+	        <span class="button" title="createlink" unselectable="on">链接</span>
+	        <span class="button" title="insertimage" unselectable="on">图片</span>
+	        <select title="fontname">
+	            <option value="SimSun">宋体</option>
+	            <option value="LiSu">隶书</option>
+	            <option value="KaiTi_GB2312">楷体</option>
+	            <option value="YouYuan">幼圆</option>
+	            <option value="SimHei">黑体</option>
+	            <option value="Microsoft YaHei">雅黑</option>
+	            <option value="Comic Sans MS">Comic Sans MS</option>
+	        </select>
+	        <select title="fontsize">
+	            <option value="1">特小</option>
+	            <option value="2">很小</option>
+	            <option value="3">小</option>
+	            <option value="4">普通</option>
+	            <option value="5">大</option>
+	            <option value="6">很大</option>
+	            <option value="7">特大</option>
+	        </select>
+	        <select title="forecolor">
+	            <option style="color:#000000" value="#000000">■■</option>
+	            <option style="color:#FF8080" value="#FF8080">■■</option>
+	            <option style="color:#FFFF00" value="#FFFF00">■■</option>
+	            <option style="color:#80FF00" value="#80FF00">■■</option>
+	            <option style="color:#00FFFF" value="#00FFFF">■■</option>
+	            <option style="color:#0000FF" value="#0000FF">■■</option>
+	            <option style="color:#FF00FF" value="#FF00FF">■■</option>
+	        </select>
+	        <select title="backcolor">
+	            <option style="color:#000000" value="#000000">■■</option>
+	            <option style="color:#FF8080" value="#FF8080">■■</option>
+	            <option style="color:#FFFF00" value="#FFFF00">■■</option>
+	            <option style="color:#80FF00" value="#80FF00">■■</option>
+	            <option style="color:#00FFFF" value="#00FFFF">■■</option>
+	            <option style="color:#0000FF" value="#0000FF">■■</option>
+	            <option style="color:#FF00FF" value="#FF00FF">■■</option>
+	        </select>
+
+	    </div>
+	    <textarea id="textarea"></textarea>
+	</form>
+	<script type="text/javascript" src='js/index.js'></script>
+</div>
+
+
+</body>
+</html>
