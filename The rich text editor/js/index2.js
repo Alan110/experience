@@ -95,7 +95,24 @@ var richEdittor = (function(window,undefined){
 		} else {
 		    style.appendChild(doc.createTextNode(cssCode))
 		}
-	}
+	};
+
+
+    var _createTable = function(rows, cols, width){
+        var builder = [];
+        builder.push('<table border="1" width="');
+        builder.push(width);
+        builder.push('">');
+        for(var r = 0; r < rows; r++){
+            builder.push('<tr>');
+            for(var c = 0; c < cols; c++){
+                builder.push('<td> </td>');
+            }
+            builder.push('</tr>');
+        }
+        builder.push('</table>');
+        return builder.join('');
+    };
 
 	/*---------------------------------------------------------*/
 

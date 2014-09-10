@@ -1,0 +1,134 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+    <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+    <meta name="ProgId" content="FrontPage.Editor.Document">
+    <title>光标位置</title>
+    <style>
+        INPUT {
+            border: 1 solid #000000
+        }
+
+        BODY, TABLE {
+            font-size: 10pt
+        }
+    </style>
+</head>
+<body>
+<table border="0" width="700" cellspacing="0" cellpadding="0">
+    <tr>
+        <td width="479" rowspan="7">
+            点击 TextArea 实现光标定位
+            <p>
+                <textarea rows="7" cols="49" id="box" onclick=tellPoint()>我怕来不及我要抱着你，直到感觉你的绉纹有了岁月的痕迹，直到视线变得模糊直到不能呼吸
+                    为了你我愿意
+                    动也不能动也要看着你，直到感觉你的发线有了白雪的痕迹，直到肯定你是真的直到失去力气让我们形影不离
+                    如果全世界我也可以放弃，至少还有你值得我去珍惜而你在这里就是生命的奇迹
+                    也许全世界我也可以忘记，就是不愿意失去你的消息你掌心的痣我总记得在哪里
+                    我们好不容易我们身不由已，我怕时间太快不够将你看仔细，我怕时间太慢日夜担心失去你恨不得一夜之间白头永不分离
+                </textarea>
+                <script language="javascript">
+                    function movePoint() {
+                        var pn = parseInt(pnum.value);
+                        if (isNaN(pn))
+                            return;
+                        var rng = box.createTextRange();
+                        rng.moveStart("character", pn);
+                        rng.collapse(true);
+                        rng.select();
+                        returnCase(rng)
+                    }
+                    function tellPoint() {
+                        var rng = event.srcElement.createTextRange();
+                        rng.moveToPoint(event.x, event.y);
+                        rng.moveStart("character", -event.srcElement.value.length)
+                        pnum.value = rng.text.length
+                        returnCase(rng)
+                    }
+
+                    function returnCase(rng) {
+                        bh.innerText = rng.boundingHeight;
+                        bl.innerText = rng.boundingLeft;
+                        bt.innerText = rng.boundingTop;
+                        bw.innerText = rng.boundingWidth;
+                        ot.innerText = rng.offsetTop;
+                        ol.innerText = rng.offsetLeft;
+                        t.innerText = rng.text;
+                    }
+
+                    function selectText(sp, ep) {
+                        sp = parseInt(sp)
+                        ep = parseInt(ep)
+                        if (isNaN(sp) || isNaN(ep))
+                            return;
+                        var rng = box.createTextRange();
+                        rng.moveEnd("character", -box.value.length)
+                        rng.moveStart("character", -box.value.length)
+                        rng.collapse(true);
+                        rng.moveEnd("character", ep)
+                        rng.moveStart("character", sp)
+                        rng.select();
+                        returnCase(rng);
+                    }
+                    var rg = box.createTextRange();
+                    function findText(tw) {
+                        if (tw == "")
+                            return;
+                        var sw = 0;
+                        if (document.selection) {
+                            sw = document.selection.createRange().text.length;
+                        }
+                        rg.moveEnd("character", box.value.length);
+                        rg.moveStart("character", sw);
+                        if (rg.findText(tw)) {
+                            rg.select();
+                            returnCase(rg);
+                        }
+
+                        if (rg.text != tw) {
+                            alert("已经搜索完了")
+                            rg = box.createTextRange()
+                        }
+
+                    }
+
+                </script>
+            </p>
+            <p></p>
+            光标位置：<input type="text" value="0" id="pnum" size="8"> <input type="button" onclick="movePoint()"
+                                                                         value="移动光标到指定位置">
+
+            <p></p>
+            选择指定范围：<input type="text" size="9" id="sbox"> -- <input type="text" size="9" id="ebox"> <input type="button"
+                                                                                                           onclick="selectText(sbox.value,ebox.value)"
+                                                                                                           value="选择">
+
+            <p></p>
+            选择查找字符 ：<input type="text" value="" id="cbox" size="8"> <input type="button" onclick="findText(cbox.value)"
+                                                                           value="查找下一个并选择">
+
+        </td>
+        <td width="217">boundingHeight: <span id="bh"></span></td>
+    </tr>
+    <tr>
+        <td width="217">boundingWidth: <span id="bw"></span></td>
+    </tr>
+    <tr>
+        <td width="217">boundingTop: <span id="bt"></span></td>
+    </tr>
+    <tr>
+        <td width="217">boundingLeft: <span id="bl"></span></td>
+    </tr>
+    <tr>
+        <td width="217">offsetLeft: <span id="ol"></span></td>
+    </tr>
+    <tr>
+        <td width="217">offsetTop: <span id="ot"></span></td>
+    </tr>
+    <tr>
+        <td width="217">text: <span style="position: absolute; z-index: 10" id="t"></span></td>
+    </tr>
+</table>
+</body>
+
+</html>
