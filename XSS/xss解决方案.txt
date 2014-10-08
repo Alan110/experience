@@ -1,0 +1,35 @@
+如果在用户在输入用户时录入的数据为" /><script src=xxx></script>这样就会插入了恶意的脚本
+
+解决方案
+	1.对用户录入的数据进行类型和长度的验证，其它的包括对URL、查询关键字、HTTP头、get、post也需要进行可靠的输入验证，这样可以抵挡部分恶意的脚本，但是不能完全防住。
+	2.尽量采用POST方式而非GET方式提交表单；对”<”,”>”,”;”,”’”等字符做过滤；任何内容输出到页面之前都必须加以encode。对于Cookie 尽量避免直接泄露用户隐私，可以用cookie结合其它一些系统或用户信息来降低泄露后的危险。
+	3.这里要注意一下如果注入代码如<img src="javascript:alert(XSS)">这种需要把关键字去除如 src href 这些连接性的 发现没有带协议头的就需要帮助补充。而style 则需要重点处理 /**/ expression url，尽可能禁止style属性，将所有的样式都定义到CSS中。
+	4.尽量减少在客户端进行写document等敏感操作，重点关注以下方法 document.URL document.URLUnencoded document.location () document.referrer window.location () document.create...()等 逐层进行过滤客户端、服务器端、数据库访问层，每一层都进行下数据的过滤尽量将危险控制在最低
+
+
+方案总结1
+	2.1.1基于特征的防御
+XSS漏洞和著名的SQL注入漏洞一样，都是利用了Web页面的编写不完善，所以每一个漏洞所利用和针对的弱点都不尽相同。这就给XSS漏洞防御带来了困难：不可能以单一特征来概括所有XSS攻击。
+传统XSS防御多采用特征匹配方式，在所有提交的信息中都进行匹配检查。对于这种类型的XSS攻击，采用的模式匹配方法一般会需要对“javascript”这个关键字进行检索，一旦发现提交信息中包含“javascript”，就认定为XSS攻击。这种检测方法的缺陷显而易见：骇客可以通过插入字符或完全编码的方式躲避检测：
+躲避方法1)在javascript中加入多个tab键，得到
+< IMG SRC="jav ascript:alert('XSS');" >;
+躲避方法2) 在javascript中加入(空格)字符，得到
+< IMG SRC="javascri pt:alert('XSS');" >;
+躲避方法3) 在javascript中加入(回车)字符，得到
+< IMG SRC="jav
+ascript:alert('XSS');" >;
+躲避方法4)在javascript中的每个字符间加入回车换行符，得到
+< IMG SRC="javascrip\r
+\nt:alert('XSS');" >
+躲避方法5)对"javascript:alert('XSS')"采用完全编码，得到
+< IMGSRC=javascrip?74:alert('XSS') >
+上述方法都可以很容易的躲避基于特征的检测。而除了会有大量的漏报外，基于特征的
+还存在大量的误报可能：在上面的例子中，对上述某网站这样一个地址，由于包含了关键字“javascript”，也将会触发报警。
+
+	2.1.2 基于代码修改的防御
+和SQL注入防御一样，XSS攻击也是利用了Web页面的编写疏忽，所以还有一种方法就是从Web应用开发的角度来避免：
+步骤1、对所有用户提交内容进行可靠的输入验证，包括对URL、查询关键字、HTTP头、POST数据等，仅接受指定长度范围内、采用适当格式、采用所预期的字符的内容提交，对其他的一律过滤。
+步骤2、实现Session标记(session tokens)、CAPTCHA系统或者HTTP引用头检查，以防功能被第三方网站所执行。
+步骤3、确认接收的的内容被妥善的规范化，仅包含最小的、安全的Tag(没有javascript)，去掉任何对远程内容的引用(尤其是样式表和javascript)，使用HTTP only的cookie。
+当然，如上操作将会降低Web业务系统的可用性，用户仅能输入少量的制定字符，人与系统间的交互被降到极致，仅适用于信息发布型站点。并且考虑到很少有Web编码人员受过正规的安全培训，很难做到完全避免页面中的XSS漏洞。
+	

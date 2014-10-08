@@ -1,0 +1,487 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0044)http://down.chinaz.com/try/201203/1695_4.htm -->
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><META content="IE=7.0000" 
+http-equiv="X-UA-Compatible">
+<TITLE>其他常用jQuery性能优化建议_源码_站长之家ChinaZ.com</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=keywords content=jQuery,jQuery优化>
+<META name=description 
+content=我一直在寻找有关jQuery性能优化方面的小窍门，能让我那臃肿的动态网页应用变得轻便些。找了很多文章后，我决定将最好最常用的一些优化性能的建议列出来。>
+<META content=ie=7 http-equiv=x-ua-compatible><LINK rel=stylesheet type=text/css 
+href="4其他常用jQuery性能优化建议_源码_站长之家ChinaZ_com_files/article.css"><LINK 
+rel=Stylesheet type=text/css 
+href="4其他常用jQuery性能优化建议_源码_站长之家ChinaZ_com_files/topbar.css"><LINK 
+rel="shortcut icon" type=image/ico href="/favicon.ico">
+<SCRIPT type=text/javascript 
+src="4其他常用jQuery性能优化建议_源码_站长之家ChinaZ_com_files/jquery.js"></SCRIPT>
+
+<SCRIPT type=text/javascript 
+src="4其他常用jQuery性能优化建议_源码_站长之家ChinaZ_com_files/amain.js"></SCRIPT>
+<LINK rel=stylesheet type=text/css 
+href="4其他常用jQuery性能优化建议_源码_站长之家ChinaZ_com_files/sh_zellner.min.css">
+<SCRIPT type=text/javascript 
+src="4其他常用jQuery性能优化建议_源码_站长之家ChinaZ_com_files/sh_main.min.js"></SCRIPT>
+
+<SCRIPT type=text/javascript 
+src="4其他常用jQuery性能优化建议_源码_站长之家ChinaZ_com_files/imgload.js"></SCRIPT>
+
+<SCRIPT type=text/javascript 
+src="4其他常用jQuery性能优化建议_源码_站长之家ChinaZ_com_files/ips2.js"></SCRIPT>
+
+<SCRIPT language=javascript> 
+<!--
+document.onkeydown=nextpage
+var prevpage="1695_3.htm";
+var nextpage="#";
+
+function nextpage() {
+	if (event.keyCode==37) location=prevpage;
+	if (event.keyCode==39) location=nextpage;
+}
+//-->
+</SCRIPT>
+
+<META name=GENERATOR content="MSHTML 11.00.9600.16663"></HEAD>
+<BODY onload="sh_highlightDocument('/shjs/lang/', '.min.js');">
+<DIV class=toolbar>
+<DIV class="clearfix toolbar-inner">
+<DIV class=quicklink>
+<UL id=chinaz_website_links class=accesslink>
+  <LI><A href="http://www.chinaz.com/"><SPAN>站长之家</SPAN></A> </LI>
+  <LI onmouseover="chinazTopBarMenu.create(this,'chinaz_website_menu_1');" 
+  onmouseout=chinazTopBarMenu.clear(this);><A class=item-expand 
+  href="http://bbs.chinaz.com/" target=_blank><SPAN>站长论坛</SPAN></A> </LI>
+  <LI onmouseover="chinazTopBarMenu.create(this,'chinaz_website_menu_2');" 
+  onmouseout=chinazTopBarMenu.clear(this);><A class=item-expand 
+  href="http://tool.chinaz.com/" target=_blank><SPAN>站长工具</SPAN></A> </LI>
+  <LI><A href="http://jy.chinaz.com/" target=_blank><SPAN>站长交易</SPAN></A> </LI>
+  <LI><A href="http://down.chinaz.com/" target=_blank><SPAN>源码下载</SPAN></A> 
+</LI>
+  <LI onmouseover="chinazTopBarMenu.create(this,'chinaz_website_menu_3');" 
+  onmouseout=chinazTopBarMenu.clear(this);><A class=item-expand 
+  href="http://sc.chinaz.com/" target=_blank><SPAN>站长素材</SPAN></A> </LI>
+  <LI><A href="http://www.cnzz.com/" target=_blank><SPAN>免费统计</SPAN></A> </LI>
+  <LI><A href="http://www.313.com/" target=_blank><SPAN>建站大师</SPAN></A> </LI>
+  <LI><A href="http://www.idc123.com/" target=_blank><SPAN>主机之家</SPAN></A> </LI>
+  <LI><A href="http://www.wangmeng.com/" target=_blank><SPAN>广告联盟</SPAN></A> 
+  </LI></UL>
+<DIV id=chinaz_website_menu_1 class=topbar-hiddencontents><A 
+href="http://bbs.chinaz.com/Club/list-1.html" target=_blank>站长俱乐部</A> <A 
+href="http://bbs.chinaz.com/Res/list-1.html" target=_blank>网站建设资源</A> <A 
+href="http://bbs.chinaz.com/Shuiba/list-1.html" target=_blank>站长水吧</A> </DIV>
+<DIV id=chinaz_website_menu_2 class=topbar-hiddencontents><A 
+href="http://alexa.chinaz.com/" target=_blank>ALEXA排名查询</A> <A 
+href="http://mytool.chinaz.com/baidusort.aspx" target=_blank>百度权重查询</A> <A 
+href="http://seo.chinaz.com/" target=_blank>SEO概况查询</A> <A 
+href="http://link.chinaz.com/" target=_blank>友情链接查询</A> <A 
+href="http://pr.chinaz.com/" target=_blank>Google PR查询</A> <A 
+href="http://whois.chinaz.com/" target=_blank>Whois信息查询</A> <A 
+href="http://tool.chinaz.com/beian.aspx" target=_blank>域名备案查询</A> </DIV>
+<DIV id=chinaz_website_menu_3 class=topbar-hiddencontents><A 
+href="http://font.chinaz.com/" target=_blank>字体下载</A> <A 
+href="http://desk.chinaz.com/" target=_blank>高清壁纸</A> <A 
+href="http://desk.chinaz.com/shoujibizhi/" target=_blank>手机壁纸</A> <A 
+href="http://sc.chinaz.com/tupian/" target=_blank>高清图片</A> <A 
+href="http://sc.chinaz.com/shiliang/" target=_blank>矢量素材</A> <A 
+href="http://sc.chinaz.com/ppt/" target=_blank>PPT模板</A> <A 
+href="http://sc.chinaz.com/psd/" target=_blank>PSD素材</A> </DIV></DIV>
+<DIV id=chinaz_topbar></DIV></DIV></DIV>
+<DIV class=contain>
+<DIV class=header>
+<DIV class=brand>
+<H1 class=logo><A href="http://down.chinaz.com/news.htm">站长下载 
+down.chinaz.com</A></H1></DIV>
+<DIV class=adtext>
+<SCRIPT type=text/javascript 
+src="4其他常用jQuery性能优化建议_源码_站长之家ChinaZ_com_files/topright.js"></SCRIPT>
+</DIV>
+<DIV class="banner banner-top">
+<SCRIPT type=text/javascript 
+src="4其他常用jQuery性能优化建议_源码_站长之家ChinaZ_com_files/A_28.js"></SCRIPT>
+</DIV>
+<DIV class=clear></DIV></DIV>
+<DIV class=nav>
+<UL>
+  <LI><A class=active 
+  href="http://down.chinaz.com/news.htm"><SPAN>报导首页</SPAN></A> </LI>
+  <LI><A href="http://down.chinaz.com/news/226_1.htm"><SPAN>动态</SPAN></A> </LI>
+  <LI><A href="http://down.chinaz.com/try/227_1.htm"><SPAN>调试</SPAN></A> </LI>
+  <LI><A href="http://down.chinaz.com/test/228_1.htm"><SPAN>评测</SPAN></A> </LI>
+  <LI><A href="http://down.chinaz.com/server/225_1.htm"><SPAN>环境</SPAN></A> 
+</LI>
+  <LI><A href="http://down.chinaz.com/member/contribute.aspx" 
+  target=_blank><SPAN>投稿</SPAN></A> </LI>
+  <LI><A href="http://down.chinaz.com/" target=_blank><SPAN>源码下载</SPAN></A> 
+  <DIV class=clear></DIV></LI></UL>
+<DIV class=search>
+<FORM method=get name=searchform action=/search.asp target=_blank><INPUT id=t 
+type=hidden value=b name=t> <INPUT 
+onfocus="this.value='';this.style.color='#000';" id=key class=text value=BBSMAX 
+name=q> <INPUT class=submit type=submit> </FORM></DIV></DIV>
+<DIV class="banner banner-leaderboard">
+<SCRIPT type=text/javascript 
+src="4其他常用jQuery性能优化建议_源码_站长之家ChinaZ_com_files/A_21.js"></SCRIPT>
+</DIV>
+<DIV class=dq>
+<P class=page_nav>您的位置: <A href="http://down.chinaz.com/">源码</A> - <A 
+href="http://down.chinaz.com/news.htm">源码报导</A> &raquo; <A 
+href="http://down.chinaz.com/try/227_1.htm">调试</A> &raquo; <STRONG>针对 jQuery 
+性能优化的28个建议</STRONG> </P></DIV>
+<DIV class=text_left>
+<DIV class="banner banner-leaderboard">
+<SCRIPT type=text/javascript 
+src="4其他常用jQuery性能优化建议_源码_站长之家ChinaZ_com_files/soft690.js"></SCRIPT>
+</DIV>
+<DIV class=top_line></DIV>
+<DIV class=text_bd>
+<DIV class=inners>
+<H1>针对 jQuery 性能优化的28个建议</H1></DIV>
+<DIV class=times><SPAN>作者：<EM style="MARGIN-RIGHT: 60px">匿名</EM> <A 
+onclick="openDialog('/max-dialogs/hail.aspx?uid=1035856')" class=hi 
+href="javascript:;"><SPAN>hi</SPAN></A><A 
+onclick="openDialog('/max-dialogs/friend-tryadd.aspx?uid=1035856')" class=peo 
+href="javascript:;"><SPAN>hi</SPAN></A></SPAN> <SPAN>来源：<EM>伯乐在线</EM></SPAN> 
+<SPAN>浏览：<EM id=allhits>
+<SCRIPT language=javascript 
+src="4其他常用jQuery性能优化建议_源码_站长之家ChinaZ_com_files/hits.htm"></SCRIPT>
+次</EM></SPAN> <SPAN>2012-3-1 11:51:41</SPAN> <SPAN id=fonts>字号：<A id=18px 
+href="javascript:;">大</A> <A id=14px href="javascript:;">中</A> <A id=12px 
+href="javascript:;">小</A></SPAN> </DIV>
+<DIV 
+class=zyao><SPAN>[摘要]</SPAN>我一直在寻找有关jQuery性能优化方面的小窍门，能让我那臃肿的动态网页应用变得轻便些。找了很多文章后，我决定将最好最常用的一些优化性能的建议列出来。</DIV>
+<DIV class=con>
+<DIV class=lisofttext>
+<P></P>
+<P>　　五、<STRONG>其他常用jQuery性能优化建议</STRONG></P>
+<P>　　21. 使用最新版本的jQuery</P>
+<P>　　最新的版本往往是最好的。更换了版本后，不要忘记测试你的代码。有时候也不是完全向后兼容的。</P>
+<P>&nbsp;</P>
+<P>　　22. 使用HMTL5</P>
+<P>　　新的HTML5标准带来的是更轻巧的DOM结构。更轻巧的结构意味着使用jQuery需要更少的遍历，以及更优良的载入性能。所以如果可能的话请使用HTML5。</P>
+<P>&nbsp;</P>
+<P>　　23. 如果给15个以上的元素加样式时，直接给DOM元素添加style标签</P>
+<P>　　要给少数的元素加样式，最好的方法就是使用jQuey的css()函数。然而更15个以上的较多的元素添加样式时，直接给DOM添加style 
+标签更有效些。这个方法可以避免在代码中使用硬编码(hard code)。</P><PRE class=sh_javascript name="code">$('&lt;style type="text/css"&gt; div.class { color: red; } &lt;/style&gt;')<BR>.appendTo('head');</PRE>
+<P>&nbsp;</P>
+<P>　　24. 避免载入多余的代码</P>
+<P>　　将Javascript代码放在不同的文件中是个好的方法，仅在需要的时候载入它们。这样你不会载入不必要的代码和选择器。也便于管理代码。</P>
+<P>&nbsp;</P>
+<P>　　25. 压缩成一个主JS文件，将下载次数保持到最少</P>
+<P>　　当你已经确定了哪些文件是应该被载入的，那么将它们打包成一个文件。用一些开源的工具可以自动帮你完成，如使用Minify(和你的后端代码集成)或者使用JSCompressor，YUI 
+Compressor 或 Dean Edwards JS packer等在线工具可以为你压缩文件。我最喜欢的是JSCompressor。</P>
+<P>&nbsp;</P>
+<P>　　26. 需要的时候使用原生的Javasript</P>
+<P>　　使用jQuery是个很棒的事情，但是不要忘了它也是Javascript的一个框架。所以你可以在jQuery代码有必要的时候也使用原生的Javascript函数，这样能获得更好的性能。</P>
+<P>&nbsp;</P>
+<P>　　27. 从Google载入jQuery框架</P>
+<P>　　当你的应用正式上线的时候，请从Google 
+CDN载入jQuery，因为用户可以从最近的地方获取代码。这样你可以减少服务器请求，而用户如果浏览其他网站，而它也使用Google 
+CDN的jQuery时，浏览器就会立即从缓存中调出jQuery代码。</P><PRE class=sh_javascript name="code">// 链接特定版本的压缩代码<BR>&lt;script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"&gt;&lt;/script&gt;</PRE>
+<P>&nbsp;</P>
+<P>　　28. 缓慢载入内容不仅能提高载入速度，也能提高SEO优化 (Lazy load content for speed and SEO 
+benefits)</P>
+<P>　　使用Ajax来载入你的网站吧，这样可以节约服务器端载入时间。你可以从一个常见的侧边栏widget开始。</P>
+<P>本文转自：<A 
+href="http://blog.jobbole.com/10279/">http://blog.jobbole.com/10279/</A></P></DIV>
+<DIV class=fy>共4页 <A 
+href="http://down.chinaz.com/try/201203/1695_1.htm">首页</A>&nbsp;<A 
+href="http://down.chinaz.com/try/201203/1695_3.htm">上一页</A>&nbsp;<A class=num 
+href="http://down.chinaz.com/try/201203/1695_2.htm">2</A>&nbsp;<A class=num 
+href="http://down.chinaz.com/try/201203/1695_3.htm">3</A>&nbsp;<A class=num 
+href="http://down.chinaz.com/try/201203/1695_4.htm"><B>4</B></A>&nbsp;<A 
+href="javascript:;">下一页</A>&nbsp;<A 
+href="http://down.chinaz.com/try/201203/1695_4.htm">尾页</A> </DIV>
+<DIV class=quick_fy>快捷键使用：上一页“←”，下一页“→” </DIV>
+<DIV class=benav>
+<DIV class=title>内容导航</DIV>
+<UL>
+  <LI>第1页：<A title=第1页.选择器性能优化建议 class=page1css 
+  href="http://down.chinaz.com/try/201203/1695_1.htm">选择器性能优化建议</A> </LI>
+  <LI>第2页：<A title=第2页.优化DOM操作建议 class=page2css 
+  href="http://down.chinaz.com/try/201203/1695_2.htm">优化DOM操作建议</A> </LI></UL>
+<UL>
+  <LI>第3页：<A title=第3页.优化事件性能的建议和测试jQuery class=page3css 
+  href="http://down.chinaz.com/try/201203/1695_3.htm">优化事件性能的建议和测试jQuery</A> 
+  </LI>
+  <LI>第4页：<A title=第4页.其他常用jQuery性能优化建议 class=active 
+  href="http://down.chinaz.com/try/201203/1695_4.htm">其他常用jQuery性能优化建议</A> 
+</LI></UL>
+<DIV class=clear></DIV></DIV>
+<DIV class=new_f>
+<DIV class=close><A class=print href="javascript:window.print();">打印</A> <A 
+class=copy href="javascript:;">复制链接</A> <A class=colle 
+href="javascript:;">收藏</A> <A href="javascript:winClose()">关闭</A> </DIV>
+<DIV class=share><SPAN>分享到</SPAN> <A id=fxwb title=分享到新浪微博 
+href="javascript:void(0)"><IMG style="MARGIN-RIGHT: 6px" border=0 
+src="4其他常用jQuery性能优化建议_源码_站长之家ChinaZ_com_files/sina_w.gif" width=16 
+height=16></A> <A onclick=posttoWb() title=分享到腾讯微博 
+href="javascript:void(0)"><IMG style="MARGIN-RIGHT: 6px" border=0 
+src="4其他常用jQuery性能优化建议_源码_站长之家ChinaZ_com_files/QQ_w.gif" width=16 height=16></A> 
+<A title=分享到QQ空间 
+href="javascript:window.open('http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url='+encodeURIComponent(document.location.href));void(0)"><IMG 
+style="MARGIN-RIGHT: 5px" border=0 alt=分享到QQ空间 
+src="4其他常用jQuery性能优化建议_源码_站长之家ChinaZ_com_files/qzone_w.gif" width=16 
+align=absMiddle height=16></A> </DIV>
+<DIV class=clear></DIV></DIV><SPAN id=moods name="moods"><IMG alt="" 
+src="4其他常用jQuery性能优化建议_源码_站长之家ChinaZ_com_files/load.gif"><B>sssss</B></SPAN> 
+<DIV class=text_tag>
+<H5>Tags： <B><EM>jQuery</EM></B> &nbsp; <B><EM>jQuery优化</EM></B> &nbsp; 
+</H5><SPAN>责任编辑：<EM>qjt198895</EM></SPAN> 
+<DIV class=clear></DIV></DIV></DIV></DIV>
+<DIV class=xg>
+<LI 
+style="OVERFLOW: hidden; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis"><SPAN>上一篇：</SPAN><A 
+href="http://down.chinaz.com/try/201202/1694_1.htm">PHPCMS v9手机门户域名绑定教程</A>
+<DIV class=clear></DIV></LI>
+<LI 
+style="OVERFLOW: hidden; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis"><SPAN>下一篇：</SPAN><A 
+href="http://down.chinaz.com/try/201203/1696_1.htm">WordPress使用clean_post_cache清理日志的缓存</A>
+<DIV class=clear></DIV>
+<DIV class=clear></DIV></LI></DIV>
+<DIV class=relative>
+<DIV class=rel_left>
+<DIV class=title>相关报导</DIV>
+<UL>
+  <LI>· <A 
+  href="http://down.chinaz.com/try/201203/1698_1.htm">WP博客HotStyle主题的jquery弹出公告</A> 
+  </LI>
+  <LI>· <A href="http://down.chinaz.com/try/201203/1695_1.htm">针对 jQuery 
+  性能优化的28个建议</A> </LI>
+  <LI>· <A 
+  href="http://down.chinaz.com/try/201202/1687_1.htm">实现基于jQuery的图片/文字无缝滚动</A> 
+  </LI>
+  <LI>· <A href="http://down.chinaz.com/try/201202/1634_1.htm">WordPress 
+  侧边上下滚动导航条效果</A> </LI>
+  <LI>· <A 
+  href="http://down.chinaz.com/try/201112/1458_1.htm">Wordpress实现JQUERY链接平移效果</A> 
+  </LI>
+  <LI>· <A 
+  href="http://down.chinaz.com/try/201111/1403_1.htm">WDL博客发布2011年度最佳jQuery插件</A> 
+  </LI>
+  <LI>· <A href="http://down.chinaz.com/news/201111/1353_1.htm">WordPress 3.3 
+  beta3发布 升级jQuery</A> </LI></UL></DIV>
+<DIV class=rel_right>
+<DIV class=picatext>
+<DIV class=lie>
+<DIV class=titles><A title=DEDECMS教程：列表页缩略图随机调用 
+href="http://down.chinaz.com/try/201304/2408_1.htm" 
+target=_blank>DEDECMS教程：列表页缩略图随机调用</A></DIV>
+<DIV class=liebd><A title=DEDECMS教程：列表页缩略图随机调用 
+href="http://down.chinaz.com/try/201304/2408_1.htm" target=_blank><IMG 
+onerror="this.src='/style/img/nopic2.GIF'" 
+src="4其他常用jQuery性能优化建议_源码_站长之家ChinaZ_com_files/2013040862725897.png"></A> 
+<P>本次DEDECMS教程小编为大家讲解DEDECMS列表页中随机调用缩略图的方法，默认的缩略图是取第一张图片，通过修...<A 
+title=DEDECMS教程：列表页缩略图随机调用 class=xp 
+href="http://down.chinaz.com/try/201304/2408_1.htm" target=_blank>详细</A> 
+</P></DIV></DIV>
+<DIV class=clear></DIV></DIV>
+<UL>
+  <LI><A title=WORDPRESS丢失管理员权限的解决办法 
+  href="http://down.chinaz.com/try/201404/2474_1.htm" 
+  target=_blank>·WORDPRESS丢失管理员权限的解决办法</A> </LI>
+  <LI><A title=使用SQL来管理你的WordPress评论 
+  href="http://down.chinaz.com/try/201403/2473_1.htm" 
+  target=_blank>·使用SQL来管理你的WordPress评论</A> </LI>
+  <LI><A title=通过自定义模板，为你的WordPress主题添加文章格式 
+  href="http://down.chinaz.com/try/201403/2472_1.htm" 
+  target=_blank>·通过自定义模板，为你的WordPress主题添加文章格式</A> </LI>
+  <LI><A title=wordpress去掉分类category标志代码实现版本 
+  href="http://down.chinaz.com/try/201403/2470_1.htm" 
+  target=_blank>·wordpress去掉分类category标志代码实现版本</A> </LI></UL></DIV>
+<DIV class=clear></DIV></DIV><SPAN id=commentjs name="commentjs"><IMG alt="" 
+src="4其他常用jQuery性能优化建议_源码_站长之家ChinaZ_com_files/load.gif"></SPAN> </DIV>
+<DIV class=text_right>
+<DIV class=edit>
+<DIV class=title>热门源码下载推荐</DIV>
+<DIV class=edit_bd>
+<DIV class=pic_text>
+<UL>
+  <LI><A href="http://down.chinaz.com/soft/26525.htm" target=_blank><IMG 
+  alt=禅道项目管理：国产开源软件 
+  src="4其他常用jQuery性能优化建议_源码_站长之家ChinaZ_com_files/zentao.jpg"></A>
+  <H1><A href="http://down.chinaz.com/soft/26525.htm" 
+  target=_blank>禅道项目管理：国产开源软件</A></H1></LI>
+  <LI><A href="http://down.chinaz.com/soft/27453.htm" target=_blank><IMG 
+  alt=cmseasy：免费营销型企业站 
+  src="4其他常用jQuery性能优化建议_源码_站长之家ChinaZ_com_files/cmseasy.jpg"></A>
+  <H1><A href="http://down.chinaz.com/soft/27453.htm" 
+  target=_blank>cmseasy：免费营销型企业站</A></H1></LI>
+  <LI><A href="http://down.chinaz.com/soft/23511.htm" target=_blank><IMG 
+  alt="BBSMAX v5.0：最好的.net论坛" 
+  src="4其他常用jQuery性能优化建议_源码_站长之家ChinaZ_com_files/bbsmax.png"></A>
+  <H1><A href="http://down.chinaz.com/soft/23511.htm" target=_blank>BBSMAX 
+  v5.0：最好的.net论坛</A></H1></LI>
+  <LI><A href="http://down.chinaz.com/soft/27695.htm" target=_blank><IMG 
+  alt=ESPcms：开源免费的企业站 
+  src="4其他常用jQuery性能优化建议_源码_站长之家ChinaZ_com_files/esp.jpg"></A>
+  <H1><A href="http://down.chinaz.com/soft/27695.htm" 
+  target=_blank>ESPcms：开源免费的企业站</A></H1>
+  <DIV class=clear></DIV></LI></UL></DIV>
+<DIV class=clear></DIV>
+<UL class=line>
+  <LI>·<A href="http://down.chinaz.com/class/51_1.htm">聊天室类</A>|<A 
+  href="http://down.chinaz.com/soft/36019.htm">QQ空间说说自动抢一楼源码 v1.1</A> </LI>
+  <LI>·<A href="http://down.chinaz.com/class/198_1.htm">整站栏目</A>|<A 
+  href="http://down.chinaz.com/soft/36018.htm">讯客淘宝客推广系统 v1.0</A> </LI>
+  <LI>·<A href="http://down.chinaz.com/class/32_1.htm">其它类别</A>|<A 
+  href="http://down.chinaz.com/soft/35979.htm">微易ASP微信公众平台_Wxxasp v1.2</A> </LI>
+  <LI>·<A href="http://down.chinaz.com/class/202_1.htm">网址导航</A>|<A 
+  href="http://down.chinaz.com/soft/35978.htm">精仿hao123网址导航系统2014夏季版 v2.0</A> 
+  </LI>
+  <LI>·<A href="http://down.chinaz.com/class/201_1.htm">企业政府</A>|<A 
+  href="http://down.chinaz.com/soft/35771.htm">无忧企业网站系统 v2014.5.4</A> </LI>
+  <LI>·<A href="http://down.chinaz.com/class/201_1.htm">企业政府</A>|<A 
+  href="http://down.chinaz.com/soft/33443.htm">智能网站管理系统(SmartSite) v2.3</A> 
+</LI>
+  <LI>·<A href="http://down.chinaz.com/class/53_1.htm">社区论坛</A>|<A 
+  href="http://down.chinaz.com/soft/35832.htm">PHPSay World 微社区系统 v1.1</A> 
+</LI></UL></DIV></DIV>
+<DIV class=edit>
+<DIV class="title active_best">最受关注报导</DIV>
+<DIV class=edit_bd>
+<DIV class="pic_text pic2"><A 
+href="http://down.chinaz.com/news/201109/1090_1.htm" target=_blank><IMG 
+alt=新一代社区系统记事狗v3功能预览 
+src="4其他常用jQuery性能优化建议_源码_站长之家ChinaZ_com_files/jishigou-2.jpg"></A></DIV>
+<UL class="line lines">
+  <LI>·<A title="PHPYUN人才招聘系统 v3.1新版预告" 
+  href="http://down.chinaz.com/news/201404/2480_1.htm" 
+  target=_blank>PHPYUN人才招聘系统 v3.1新版预告</A> </LI>
+  <LI>·<A title=单页面淘宝客的操作流程简介 
+  href="http://down.chinaz.com/news/201404/2479_1.htm" 
+  target=_blank>单页面淘宝客的操作流程简介</A> </LI>
+  <LI>·<A title=微信营销的5大成功案例，给你一个学习的机会 
+  href="http://down.chinaz.com/test/201404/2478_1.htm" 
+  target=_blank>微信营销的5大成功案例，给你一个学习的机会</A> </LI>
+  <LI>·<A title=中小企业该如何在B2B平台上做网站和产品的推广 
+  href="http://down.chinaz.com/news/201404/2477_1.htm" 
+  target=_blank>中小企业该如何在B2B平台上做网站和产品的推广</A> </LI>
+  <LI>·<A title=工作易高端人才招聘系统IIS7、IIS8的伪静态设置方法 
+  href="http://down.chinaz.com/server/201404/2476_1.htm" 
+  target=_blank>工作易高端人才招聘系统IIS7、IIS8的伪静态设置方法</A> </LI>
+  <LI>·<A title=百度官方WORDPRESS结构化数据插件百度SITEMAP发布 
+  href="http://down.chinaz.com/news/201404/2475_1.htm" 
+  target=_blank>百度官方WORDPRESS结构化数据插件百度SITEMAP发布</A> </LI>
+  <LI>·<A title=WORDPRESS丢失管理员权限的解决办法 
+  href="http://down.chinaz.com/try/201404/2474_1.htm" 
+  target=_blank>WORDPRESS丢失管理员权限的解决办法</A> </LI>
+  <LI>·<A title=使用SQL来管理你的WordPress评论 
+  href="http://down.chinaz.com/try/201403/2473_1.htm" 
+  target=_blank>使用SQL来管理你的WordPress评论</A> </LI>
+  <LI>·<A title=通过自定义模板，为你的WordPress主题添加文章格式 
+  href="http://down.chinaz.com/try/201403/2472_1.htm" 
+  target=_blank>通过自定义模板，为你的WordPress主题添加文章格式</A> </LI>
+  <LI>·<A title=地方门户网站制作在创业型站长心目中的权重 
+  href="http://down.chinaz.com/news/201403/2471_1.htm" 
+  target=_blank>地方门户网站制作在创业型站长心目中的权重</A> </LI>
+  <LI>·<A title=wordpress去掉分类category标志代码实现版本 
+  href="http://down.chinaz.com/try/201403/2470_1.htm" 
+  target=_blank>wordpress去掉分类category标志代码实现版本</A> </LI></UL></DIV></DIV>
+<DIV class=edit>
+<DIV class=title>编辑推荐排行</DIV>
+<DIV class=edit_bd>
+<UL class=Sequence></UL></DIV></DIV></DIV>
+<DIV class=clear></DIV>
+<SCRIPT type=text/javascript> 
+
+var description = jq('meta[name=description]').attr("content"); 
+
+
+
+   var sendT = {
+getHeader : function(){
+              var g_title=description;
+              var re = /<[^<>]*?font[^<>]*?>/gi;
+              g_title = g_title.replace(re,"");
+              return g_title;
+            },
+getFirstImgSrc : function(){
+                   var allPageTags=document.getElementsByTagName("div");
+                   for (var i=0; i<allPageTags.length;i++) {
+                     if (allPageTags[i].className=='lisofttext') {
+                       if (allPageTags[i].getElementsByTagName("img")[0] && allPageTags[i].getElementsByTagName("img")[0].width > 200)
+                       {
+                         return allPageTags[i].getElementsByTagName("img")[0].src;
+                       }
+                       else
+                       {
+                         return null;
+                       }
+ 
+                     }
+                   }
+                 },
+getContent : function(){
+               var allPageTagss=document.getElementsByTagName("div");	
+               for (var i=0; i<allPageTagss.length;i++) {
+                 if (allPageTagss[i].className=='lisofttext') {
+                   return allPageTagss[i].innerHTML;
+                 }
+               }
+             }
+  }
+ 
+
+
+document.getElementById("fxwb").onclick=function(){
+  (function(s,d,e,r,l,p,t,z,c){
+   var f='http://service.weibo.com/share/share.php?appkey=105148761&',u=z||d.location,p=['url=',e(u),'&title=',e(sendT.getHeader()),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');
+   function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');
+   };
+   if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();
+   })(screen,document,encodeURIComponent,'CHINAZ','http://down.chinaz.com/',sendT.getFirstImgSrc(),null,null,null);
+}
+ 
+
+function posttoWb() {
+  var _tt = description;
+  var _t = encodeURI(_tt.replace(/\s+$/, ''));
+  var _url = encodeURI(window.location);
+  var _appkey = encodeURI("258efff116d2466da9b7513cbae7de0b");
+  var _site = encodeURI('down.chinaz.com');
+  var _pic = '';
+  var _u = 'http://v.t.qq.com/share/share.php?title='+_t+'&url='+_url+'&appkey='+_appkey+'&site='+_site+'&pic='+_pic;
+  window.open( _u,'转播到腾讯微博', 'width=700, height=580, top=320, left=180, toolbar=no, menubar=no, scrollbars=no, location=yes, resizable=no, status=no' );
+}
+
+ 
+</SCRIPT>
+
+<DIV class=footer>
+<SCRIPT type=text/javascript 
+src="4其他常用jQuery性能优化建议_源码_站长之家ChinaZ_com_files/hz.js"></SCRIPT>
+
+<P class=footer-nav><A href="http://www.chinaz.com/aboutus/index.html" 
+target=_blank>关于我们</A> | <A href="http://www.chinaz.com/aboutus/contact.php" 
+target=_blank>联系我们</A> | <A href="http://www.chinaz.com/aboutus/ad.html" 
+target=_blank>广告服务</A> | <A href="http://www.chinaz.com/aboutus/link.html" 
+target=_blank>友情链接</A> | <A href="http://www.chinaz.com/aboutus/announce.html" 
+target=_blank>版权声明</A> | <A href="http://www.chinaz.com/aboutus/join.html" 
+target=_blank>人才招聘</A> | <A href="http://www.chinaz.com/aboutus/help.html" 
+target=_blank>帮助</A> | <A href="http://down.chinaz.com/member/submit.aspx" 
+target=_blank>发布软件/源码</A> | <A 
+href="http://down.chinaz.com/member/contribute.aspx" target=_blank>发布文章/稿件</A> 
+</P>
+<P>CopyRight 2002-2014 站长之家 Chinaz.Com ,All Rights Reserved </P>
+<P>闽ICP备08105208号 增值电信业务经营许可证闽B2-20070004号</P></DIV></DIV>
+<SCRIPT language=javascript>
+var articleid = '1695';
+</SCRIPT>
+
+<SCRIPT type=text/javascript 
+src="4其他常用jQuery性能优化建议_源码_站长之家ChinaZ_com_files/mood.js"></SCRIPT>
+
+<SCRIPT type=text/javascript 
+src="4其他常用jQuery性能优化建议_源码_站长之家ChinaZ_com_files/comment.htm"></SCRIPT>
+
+<SCRIPT language=javascript type=text/javascript 
+src="4其他常用jQuery性能优化建议_源码_站长之家ChinaZ_com_files/hits(1).htm"></SCRIPT>
+
+<SCRIPT type=text/javascript charset=UTF-8 
+src="4其他常用jQuery性能优化建议_源码_站长之家ChinaZ_com_files/_topbar.htm"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F83a916ce12c01d1ba6673d824a213946' type='text/javascript'%3E%3C/script%3E"));
+</SCRIPT>
+</BODY></HTML>

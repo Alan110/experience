@@ -1,0 +1,468 @@
+#chinaz_topbar {
+	FLOAT: right
+}
+#chinaz_topbar .userbar {
+	WHITE-SPACE: nowrap; FLOAT: right; MARGIN-TOP: 3px
+}
+#chinaz_topbar .userbar A {
+	HEIGHT: 20px; FLOAT: left; MARGIN-LEFT: 10px; DISPLAY: inline; LINE-HEIGHT: 20px
+}
+#chinaz_topbar .userbar A:link {
+	COLOR: #000
+}
+#chinaz_topbar .userbar A:visited {
+	COLOR: #000
+}
+#chinaz_topbar .userbar A:hover {
+	CURSOR: pointer; COLOR: #12459c
+}
+#chinaz_topbar .userbar A:active {
+	CURSOR: pointer; COLOR: #12459c
+}
+#chinaz_topbar .userbar .counts {
+	FONT-SIZE: 83%; BACKGROUND: #c00; COLOR: #fff; PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0.3em; PADDING-RIGHT: 0.3em; -moz-border-radius: 0.6em; -webkit-border-radius: 0.6em; border-radius: 0.6em
+}
+#chinaz_topbar .userbar A.username:link {
+	COLOR: #12459c
+}
+#chinaz_topbar .userbar A.username:visited {
+	COLOR: #12459c
+}
+#chinaz_topbar .userbar A.item-expand {
+	BACKGROUND: url(../images/toolbar_arrow.gif) no-repeat 100% 0px; MARGIN-LEFT: 5px; PADDING-RIGHT: 18px; MARGIN-RIGHT: -7px
+}
+#chinaz_topbar .userbar A.hover {
+	BACKGROUND: url(../images/toolbar_arrow.gif) no-repeat 100% -50px; POSITION: relative; Z-INDEX: 100
+}
+#chinaz_topbar .userbar A.item-expand SPAN {
+	BACKGROUND: url(../images/toolbar_arrow.gif) no-repeat 0px 999px; FLOAT: left; PADDING-LEFT: 5px
+}
+#chinaz_topbar .userbar A.hover SPAN {
+	BACKGROUND-POSITION: 0px -100px
+}
+* HTML #chinaz_topbar .userbar .counts {
+	POSITION: relative; TOP: -4px
+}
+.accesslink {
+	WHITE-SPACE: nowrap; POSITION: relative; FLOAT: left; Z-INDEX: 1; MARGIN-TOP: 3px
+}
+.accesslink LI {
+	POSITION: relative; FLOAT: left
+}
+.accesslink A {
+	HEIGHT: 20px; FLOAT: left; MARGIN-LEFT: 10px; DISPLAY: inline; LINE-HEIGHT: 20px
+}
+.accesslink A:link {
+	COLOR: #000
+}
+.accesslink A:visited {
+	COLOR: #000
+}
+.accesslink A:hover {
+	CURSOR: pointer; COLOR: #12459c
+}
+.accesslink A.active {
+	CURSOR: pointer; COLOR: #12459c
+}
+.accesslink A.item-expand {
+	BACKGROUND: url(../images/toolbar_arrow.gif) no-repeat 100% 0px; MARGIN-LEFT: 5px; PADDING-RIGHT: 18px; MARGIN-RIGHT: -7px
+}
+.accesslink A.item-expand:hover {
+	BACKGROUND: url(../images/toolbar_arrow.gif) no-repeat 100% -50px; POSITION: relative; Z-INDEX: 100
+}
+.accesslink LI:hover A.item-expand {
+	BACKGROUND: url(../images/toolbar_arrow.gif) no-repeat 100% -50px; POSITION: relative; Z-INDEX: 100
+}
+.accesslink LI.hover A.item-expand {
+	BACKGROUND: url(../images/toolbar_arrow.gif) no-repeat 100% -50px; POSITION: relative; Z-INDEX: 100
+}
+.accesslink A.item-expand SPAN {
+	BACKGROUND: url(../images/toolbar_arrow.gif) no-repeat 0px 999px; FLOAT: left; PADDING-LEFT: 5px
+}
+.accesslink A.item-expand:hover SPAN {
+	BACKGROUND-POSITION: 0px -100px
+}
+.accesslink LI:hover A.item-expand SPAN {
+	BACKGROUND-POSITION: 0px -100px
+}
+.accesslink LI.hover A.item-expand SPAN {
+	BACKGROUND-POSITION: 0px -100px
+}
+.accesslink .dropdownmenu-wrap {
+	LEFT: 4px; TOP: 18px; VISIBILITY: hidden
+}
+.accesslink .dropdownmenu {
+	WIDTH: 110px !important
+}
+.accesslink .dropdownmenu-inner {
+	BORDER-TOP: #bbb 1px solid; BORDER-RIGHT: #bbb 1px solid; BORDER-BOTTOM: #bbb 1px solid; BORDER-LEFT: #bbb 1px solid
+}
+.accesslink .dropdownmenu A {
+	HEIGHT: auto; FLOAT: none; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; MARGIN: 0px; DISPLAY: block; LINE-HEIGHT: 2; PADDING-RIGHT: 10px
+}
+.accesslink LI:hover .dropdownmenu-wrap {
+	VISIBILITY: visible
+}
+.accesslink LI.hover .dropdownmenu-wrap {
+	VISIBILITY: visible
+}
+.topbar-hiddencontents {
+	DISPLAY: none
+}
+.userbar {
+	MARGIN-TOP: 4px
+}
+.accesslink {
+	MARGIN-TOP: 4px
+}
+* HTML .userbar {
+	MARGIN-TOP: 5px
+}
+* HTML .accesslink {
+	MARGIN-TOP: 5px
+}
+.dialog {
+	POSITION: absolute; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; FILTER: progid:DXImageTransform.Microsoft.gradient(startColorstr=#22000000,endColorstr=#22000000); PADDING-RIGHT: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px
+}
+.dialog-inner {
+	BORDER-TOP: #779cb0 1px solid; BORDER-RIGHT: #779cb0 1px solid; BACKGROUND: #f6fbff; BORDER-BOTTOM: #779cb0 1px solid; BORDER-LEFT: #779cb0 1px solid
+}
+.dropdownmenu-wrap {
+	BACKGROUND: url(../images/shadow.png); POSITION: absolute; MARGIN: 3px 0px 0px 3px; Z-INDEX: 10
+}
+.dropdownmenu {
+	WIDTH: 150px; BACKGROUND: #fff; POSITION: relative; LEFT: -2px; TOP: -2px
+}
+.dropdownmenu-list {
+	BORDER-TOP: #dcdcdc 1px solid; BORDER-RIGHT: #dcdcdc 1px solid; BORDER-BOTTOM: #dcdcdc 1px solid; ZOOM: 1; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; PADDING-LEFT: 1px; BORDER-LEFT: #dcdcdc 1px solid; PADDING-RIGHT: 1px
+}
+.dropdownmenu-inner {
+	BORDER-TOP: #dcdcdc 1px solid; BORDER-RIGHT: #dcdcdc 1px solid; BORDER-BOTTOM: #dcdcdc 1px solid; ZOOM: 1; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; PADDING-LEFT: 1px; BORDER-LEFT: #dcdcdc 1px solid; PADDING-RIGHT: 1px
+}
+.dropdownmenu A:link {
+	COLOR: #000
+}
+.dropdownmenu A:visited {
+	COLOR: #000
+}
+.dropdownmenuloader {
+	BACKGROUND: url(../images/ajaxloading.gif) no-repeat 50% 20px; COLOR: #999; PADDING-BOTTOM: 20px; TEXT-ALIGN: center; PADDING-TOP: 40px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+.menu-notice .dropdownmenu {
+	WIDTH: 260px
+}
+.menu-notice .noticelist {
+	OVERFLOW: hidden; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 9px; PADDING-RIGHT: 10px
+}
+.menu-notice .noticelist LI {
+	BORDER-TOP: #ddd 1px solid; PADDING-TOP: 5px; MARGIN: -1px 0px 7px
+}
+.menu-notice .noticelist .date {
+	FONT-SIZE: 92%; COLOR: #999
+}
+.menu-notice .noticelist .action {
+	COLOR: #999; TEXT-ALIGN: right
+}
+.menu-notice .noticelist .action A:link {
+	COLOR: #12459c
+}
+.menu-notice .noticelist .action A:visited {
+	COLOR: #12459c
+}
+.menu-notice .noticelist .entry A:link {
+	COLOR: #12459c
+}
+.menu-notice .noticelist .entry A:visited {
+	COLOR: #12459c
+}
+.menu-notice .messagelist .msgignore:link {
+	COLOR: #12459c
+}
+.menu-notice .messagelist .msgignore:visited {
+	COLOR: #12459c
+}
+.menu-notice .noticelist-nodata {
+	COLOR: #999; PADDING-BOTTOM: 20px; TEXT-ALIGN: center; PADDING-TOP: 20px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px
+}
+.menu-notice .messagelist-nodata {
+	COLOR: #999; PADDING-BOTTOM: 20px; TEXT-ALIGN: center; PADDING-TOP: 20px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px
+}
+.menu-notice .messagemenu-link {
+	BORDER-TOP: #ddd 1px solid; PADDING-BOTTOM: 5px; TEXT-ALIGN: right; PADDING-TOP: 5px; PADDING-LEFT: 0px; MARGIN: 0px 10px; PADDING-RIGHT: 0px
+}
+.menu-notice .messagelist LI {
+	BORDER-TOP: #ddd 1px solid; MARGIN: -1px 0px 0px
+}
+.menu-notice .messagelist .msgitem {
+	PADDING-BOTTOM: 7px; PADDING-TOP: 5px; PADDING-LEFT: 40px; DISPLAY: block; PADDING-RIGHT: 0px
+}
+.menu-notice .messagelist .msgitem:hover {
+	TEXT-DECORATION: none; BACKGROUND-COLOR: #f6fbff
+}
+.menu-notice .messagelist .msgitem:active {
+	TEXT-DECORATION: none; BACKGROUND-COLOR: #f6fbff
+}
+.menu-notice .messagelist .avatar {
+	WIDTH: 32px; FLOAT: left; MARGIN: 3px 0px 0px -40px; DISPLAY: inline
+}
+.menu-notice .messagelist .avatar IMG {
+	BORDER-TOP: #f0f0f0 1px solid; BORDER-RIGHT: #f0f0f0 1px solid; BACKGROUND: #fff; BORDER-BOTTOM: #f0f0f0 1px solid; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; PADDING-LEFT: 3px; BORDER-LEFT: #f0f0f0 1px solid; PADDING-RIGHT: 3px
+}
+.menu-notice .messagelist .name {
+	FLOAT: left; FONT-WEIGHT: bold; MARGIN-RIGHT: 5px
+}
+.menu-notice .messagelist .unread {
+	FLOAT: left; FONT-WEIGHT: bold; COLOR: #c00
+}
+.menu-notice .messagelist .date {
+	FONT-SIZE: 92%; FLOAT: right; COLOR: #999
+}
+.menu-notice .messagelist .summary {
+	OVERFLOW: hidden; WIDTH: 100%; WHITE-SPACE: nowrap; FLOAT: left
+}
+.menu-notice .messagelist .lastmsg {
+	PADDING-RIGHT: 2.5em
+}
+.menu-notice .messagelist .msgignore {
+	FLOAT: right; MARGIN-TOP: -2em
+}
+.menu-normal .dropdownmenu-inner {
+	BORDER-TOP-COLOR: #bbb; BORDER-LEFT-COLOR: #bbb; BORDER-BOTTOM-COLOR: #bbb; BORDER-RIGHT-COLOR: #bbb
+}
+.menu-normal .dropdownmenu-inner A {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; DISPLAY: block; LINE-HEIGHT: 2; PADDING-RIGHT: 10px
+}
+.menu-setting {
+	PADDING-BOTTOM: 1px; MARGIN: 2px 0px 0px 3px
+}
+.menu-setting .dropdownmenu {
+	WIDTH: 200px; TOP: -1px
+}
+.menu-setting .dropdownmenu-inner {
+	BORDER-TOP: #bbb 1px solid; BORDER-RIGHT: #bbb 1px solid; BORDER-BOTTOM: #bbb 1px solid; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; BORDER-LEFT: #bbb 1px solid; PADDING-RIGHT: 10px
+}
+.menu-setting .menu-setting-account {
+	MARGIN-BOTTOM: 5px; BORDER-BOTTOM: #ddd 1px dashed; PADDING-BOTTOM: 10px; PADDING-TOP: 0px; PADDING-LEFT: 62px; PADDING-RIGHT: 0px
+}
+.menu-setting .menu-setting-account .accountavatar {
+	WIDTH: 52px; FLOAT: left; MARGIN-LEFT: -62px; DISPLAY: inline
+}
+.menu-setting .menu-setting-account .accountavatar A {
+	BACKGROUND: none transparent scroll repeat 0% 0%; DISPLAY: block
+}
+.menu-setting .menu-setting-account .accountavatar IMG {
+	BORDER-TOP: #e6e6e6 1px solid; BORDER-RIGHT: #e6e6e6 1px solid; BORDER-BOTTOM: #e6e6e6 1px solid; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; PADDING-LEFT: 1px; BORDER-LEFT: #e6e6e6 1px solid; DISPLAY: block; PADDING-RIGHT: 1px
+}
+.menu-setting .menu-setting-account .visible {
+	OVERFLOW: hidden; HEIGHT: 16px; WIDTH: 16px; BACKGROUND: url(../images/ueser_invisible.gif) #fff no-repeat 50% 50%; POSITION: relative; FLOAT: right; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; PADDING-LEFT: 2px; MARGIN: -18px -2px 0px 0px; DISPLAY: block; PADDING-RIGHT: 2px; TEXT-INDENT: -999px; -moz-border-radius: 5px 0 0 0; -webkit-border-radius: 5px 0 0 0; border-radius: 5px 0 0 0
+}
+.menu-setting .menu-setting-account .invisible {
+	OVERFLOW: hidden; HEIGHT: 16px; WIDTH: 16px; BACKGROUND: url(../images/ueser_invisible.gif) #fff no-repeat 50% 50%; POSITION: relative; FLOAT: right; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; PADDING-LEFT: 2px; MARGIN: -18px -2px 0px 0px; DISPLAY: block; PADDING-RIGHT: 2px; TEXT-INDENT: -999px; -moz-border-radius: 5px 0 0 0; -webkit-border-radius: 5px 0 0 0; border-radius: 5px 0 0 0
+}
+.menu-setting .menu-setting-account .visible {
+	BACKGROUND-IMAGE: url(../images/ueser_visible.gif)
+}
+.menu-setting .menu-setting-account .toggle {
+	WIDTH: 52px; TEXT-ALIGN: center; CLEAR: both
+}
+.menu-setting .menu-account-info {
+	MARGIN-BOTTOM: 5px; LINE-HEIGHT: 1.6
+}
+.menu-setting .menu-account-info LI {
+	WIDTH: 49.9%; WHITE-SPACE: nowrap; FLOAT: left
+}
+.menu-setting .menu-account-info LI.span {
+	WIDTH: 100%; WHITE-SPACE: normal
+}
+.menu-setting .menu-account-info .label {
+	COLOR: #999; MARGIN-RIGHT: 5px
+}
+.menu-setting .menu-account-info .value {
+	COLOR: #f60; FONT-STYLE: normal
+}
+.menu-setting .menu-setting-list LI {
+	WIDTH: 49.9%; FLOAT: left; LINE-HEIGHT: 1.8
+}
+.menu-setting .menu-setting-list A {
+	WHITE-SPACE: nowrap
+}
+.menu-setting .menu-setting-list A:link {
+	COLOR: #000
+}
+.menu-setting .menu-setting-list A:visited {
+	COLOR: #000
+}
+.menu-tip {
+	BACKGROUND: none transparent scroll repeat 0% 0%; RIGHT: 100px; TOP: 38px; opacity: .95
+}
+.menu-tip .dropdownmenu {
+	WIDTH: 220px; BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.menu-tip .dropdownmenu-inner {
+	BORDER-TOP: #dfc97f 1px solid; BORDER-RIGHT: #dfc97f 1px solid; BACKGROUND: #fbfbf0; BORDER-BOTTOM: #dfc97f 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: #dfc97f 1px solid; PADDING-RIGHT: 0px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -webkit-box-shadow: inset 0 1px 0 #fff,0 1px 3px rgba(0,0,0,0.15); -moz-box-shadow: inset 0 1px 0 #fff,0 1px 3px rgba(0,0,0,0.15); box-shadow: inset 0 1px 0 #fff,0 1px 3px rgba(0,0,0,0.15)
+}
+.menu-tip .menu-closer {
+	FLOAT: right
+}
+.menu-tip .menu-closer A {
+	OVERFLOW: hidden; HEIGHT: 0px; WIDTH: 14px; BACKGROUND: url(../images/menu_tip_close.gif) no-repeat; FLOAT: left; PADDING-TOP: 14px; MARGIN: 5px 5px 0px 0px; DISPLAY: inline
+}
+.menu-tip-list LI {
+	MARGIN: 5px 10px
+}
+.menu-tip-list STRONG {
+	COLOR: #c00
+}
+.menu-tip A:link {
+	COLOR: #0af
+}
+.menu-tip A:visited {
+	COLOR: #0af
+}
+.menu-friend {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.menu-friend .dropdownmenu {
+	WIDTH: 250px; BACKGROUND: #fff
+}
+.menu-friend .dropdownmenu-inner {
+	BORDER-TOP-COLOR: #b4c9dd; BORDER-LEFT-COLOR: #b4c9dd; PADDING-BOTTOM: 0px; BORDER-BOTTOM-COLOR: #b4c9dd; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-RIGHT-COLOR: #b4c9dd; PADDING-RIGHT: 0px
+}
+.menufriend-head {
+	OVERFLOW: hidden; HEIGHT: 72px; BACKGROUND: url(../images/menu_friend_bg_2.png) no-repeat; BORDER-BOTTOM: #b4c9dd 1px solid; POSITION: relative
+}
+.menufriend-head-inner {
+	PADDING-BOTTOM: 9px; PADDING-TOP: 9px; PADDING-LEFT: 70px; PADDING-RIGHT: 7px
+}
+.menufriend-head .avatar {
+	WIDTH: 54px; FLOAT: left; MARGIN-LEFT: -63px; DISPLAY: inline
+}
+.menufriend-head .avatar A {
+	BACKGROUND: url(../images/menu_friend_bg_2.png) no-repeat 0px -300px; FLOAT: left
+}
+.menufriend-head .username {
+	MARGIN-BOTTOM: 5px; CURSOR: move; PADDING-TOP: 3px
+}
+.menufriend-head .closer {
+	RIGHT: 10px; POSITION: absolute; TOP: 8px
+}
+.menufriend-head .closer A {
+	OVERFLOW: hidden; HEIGHT: 22px; WIDTH: 22px; BACKGROUND: url(../images/menu_friend_bg_2.png) no-repeat -100px -300px; DISPLAY: block; TEXT-INDENT: -9999px
+}
+.menufriend-head .closer A:hover {
+	BACKGROUND-POSITION: -122px -300px
+}
+.menufriend-body {
+	OVERFLOW: auto; HEIGHT: 290px; BACKGROUND: url(../images/menu_friend_bg_2.png) #fff no-repeat 0px -400px
+}
+.menufriend-body-inner {
+	PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
+}
+.menufriend-body A:link {
+	TEXT-DECORATION: none
+}
+.menufriend-body A:visited {
+	TEXT-DECORATION: none
+}
+.menufriend-title {
+	MARGIN-BOTTOM: 1px; BACKGROUND: url(../images/menu_friend_bg.png) no-repeat -999px 0px; PADDING-RIGHT: 2px
+}
+.menufriend-title A {
+	CURSOR: pointer; BACKGROUND: url(../images/menu_friend_bg.png) no-repeat 0px -100px; FONT-WEIGHT: normal; PADDING-LEFT: 20px; DISPLAY: block
+}
+.menufriend-title SPAN {
+	HEIGHT: 25px; BACKGROUND: url(../images/menu_friend_bg.png) repeat-x 0px -999px; DISPLAY: block; LINE-HEIGHT: 25px; PADDING-RIGHT: 3px
+}
+.menufriend-title .count {
+	COLOR: #999; FONT-STYLE: normal
+}
+.menufriend-title:hover {
+	BACKGROUND-POSITION: 100% -175px
+}
+.menufriend-title:hover A {
+	BACKGROUND-POSITION: 0px -125px
+}
+.menufriend-title:hover SPAN {
+	BACKGROUND-POSITION: 0px -150px
+}
+.menufriend-group-expand .menufriend-title {
+	BACKGROUND-POSITION: 100% -250px
+}
+.menufriend-group-expand .menufriend-title A {
+	BACKGROUND-POSITION: 0px -200px
+}
+.menufriend-group-expand .menufriend-title SPAN {
+	BACKGROUND-POSITION: 0px -225px
+}
+.menufriend-list .frienditem {
+	PADDING-BOTTOM: 4px; PADDING-TOP: 4px; PADDING-LEFT: 40px; PADDING-RIGHT: 5px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px
+}
+.menufriend-list .frienditem:hover {
+	BORDER-TOP: #ffe5a0 1px solid; BORDER-RIGHT: #ffe5a0 1px solid; BACKGROUND: #fffae3; BORDER-BOTTOM: #ffe5a0 1px solid; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; PADDING-LEFT: 39px; BORDER-LEFT: #ffe5a0 1px solid; PADDING-RIGHT: 4px
+}
+.menufriend-list .frienditem .avatar {
+	FLOAT: left; MARGIN: 5px 0px 0px -35px; DISPLAY: inline
+}
+.menufriend-list .frienditem .avatar IMG {
+	BORDER-TOP: #eee 1px solid; BORDER-RIGHT: #eee 1px solid; BACKGROUND: #fff; BORDER-BOTTOM: #eee 1px solid; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; PADDING-LEFT: 1px; BORDER-LEFT: #eee 1px solid; PADDING-RIGHT: 1px
+}
+.menufriend-list .online .avatar IMG {
+	BORDER-TOP: #f0fbff 1px solid; BORDER-RIGHT: #f0fbff 1px solid; BACKGROUND: #85deff; BORDER-BOTTOM: #f0fbff 1px solid; BORDER-LEFT: #f0fbff 1px solid
+}
+.menufriend-list .space {
+	BORDER-TOP: #fff 1px solid; HEIGHT: 16px; BORDER-RIGHT: #fff 1px solid; WIDTH: 16px; BACKGROUND: url(../images/icons/space.gif) no-repeat; BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; DISPLAY: inline-block
+}
+.menufriend-list .space:hover {
+	BORDER-TOP-COLOR: #ffe5a0; BORDER-LEFT-COLOR: #ffe5a0; BORDER-BOTTOM-COLOR: #ffe5a0; BORDER-RIGHT-COLOR: #ffe5a0; BACKGROUND-COLOR: #fff
+}
+.menufriend-list .status {
+	OVERFLOW: hidden; WIDTH: 150px; WHITE-SPACE: nowrap; COLOR: #999; DISPLAY: block
+}
+.menufriend-foot {
+	BORDER-TOP: #b4c9dd 1px solid; BACKGROUND: url(../images/menu_friend_bg_2.png) #fff repeat-x 0px -100px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
+}
+.menufriend-foot A {
+	BACKGROUND: url(../images/menu_friend_bg.png) no-repeat; FLOAT: left; PADDING-LEFT: 12px
+}
+.menufriend-foot A.friend-manage {
+	BACKGROUND-POSITION: 0px -280px
+}
+.menufriend-foot A.friend-search {
+	BACKGROUND-POSITION: 0px -310px; FLOAT: right
+}
+.menufriend-head A:link {
+	COLOR: #12459c
+}
+.menufriend-head A:visited {
+	COLOR: #12459c
+}
+.menu-friend .usertagline-wrap {
+	OVERFLOW: hidden; HEIGHT: 24px; WIDTH: 170px; BACKGROUND: url(../images/menu_friend_bg_2.png) repeat-x 0px 999px; FLOAT: left
+}
+.menu-friend .usertagline-inner {
+	OVERFLOW: hidden; MARGIN: 0px 5px
+}
+.menu-friend .usertagline-hover {
+	BACKGROUND-POSITION: 0px -200px
+}
+.menu-friend .usertagline-active {
+	BACKGROUND-POSITION: 0px -224px
+}
+.menu-friend .usertagline-text {
+	OVERFLOW: hidden; HEIGHT: 24px; WHITE-SPACE: nowrap; COLOR: #666; LINE-HEIGHT: 24px
+}
+.menu-friend .usertagline-form {
+	HEIGHT: 24px; LINE-HEIGHT: 24px
+}
+.menu-friend .usertagline-form .tagline-input {
+	OVERFLOW: hidden; HEIGHT: 24px; WIDTH: 100%; FLOAT: left
+}
+.menu-friend .usertagline-form .tagline-input .text {
+	BORDER-LEFT-WIDTH: 0px; HEIGHT: 20px; BORDER-RIGHT-WIDTH: 0px; WIDTH: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN-TOP: 2px; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px
+}
+.clearfix {
+	ZOOM: 1
+}
+.clearfix:after {
+	HEIGHT: 0px; FONT: 0px/0 sans-serif; CONTENT: "."; CLEAR: both; DISPLAY: block; VISIBILITY: hidden
+}

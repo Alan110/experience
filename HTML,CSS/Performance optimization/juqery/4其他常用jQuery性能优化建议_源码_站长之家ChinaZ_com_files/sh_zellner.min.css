@@ -1,0 +1,69 @@
+PRE.sh_sourceCode {
+	FONT-WEIGHT: normal; COLOR: #000; FONT-STYLE: normal; BACKGROUND-COLOR: #fff
+}
+PRE.sh_sourceCode .sh_keyword {
+	FONT-WEIGHT: normal; COLOR: #a52a2a; FONT-STYLE: normal
+}
+PRE.sh_sourceCode .sh_type {
+	FONT-WEIGHT: normal; COLOR: #00f; FONT-STYLE: normal
+}
+PRE.sh_sourceCode .sh_string {
+	FONT-WEIGHT: normal; COLOR: #f0f; FONT-STYLE: normal
+}
+PRE.sh_sourceCode .sh_regexp {
+	FONT-WEIGHT: normal; COLOR: #f0f; FONT-STYLE: normal
+}
+PRE.sh_sourceCode .sh_specialchar {
+	FONT-WEIGHT: normal; COLOR: #f0f; FONT-STYLE: normal
+}
+PRE.sh_sourceCode .sh_comment {
+	FONT-WEIGHT: normal; COLOR: #f00; FONT-STYLE: normal
+}
+PRE.sh_sourceCode .sh_number {
+	FONT-WEIGHT: normal; COLOR: #f0f; FONT-STYLE: normal
+}
+PRE.sh_sourceCode .sh_preproc {
+	FONT-WEIGHT: normal; COLOR: #a020f0; FONT-STYLE: normal
+}
+PRE.sh_sourceCode .sh_function {
+	FONT-WEIGHT: bold; COLOR: #000; FONT-STYLE: normal
+}
+PRE.sh_sourceCode .sh_url {
+	FONT-WEIGHT: normal; COLOR: #f0f; FONT-STYLE: normal
+}
+PRE.sh_sourceCode .sh_date {
+	FONT-WEIGHT: normal; COLOR: #a52a2a; FONT-STYLE: normal
+}
+PRE.sh_sourceCode .sh_time {
+	FONT-WEIGHT: normal; COLOR: #a52a2a; FONT-STYLE: normal
+}
+PRE.sh_sourceCode .sh_file {
+	FONT-WEIGHT: normal; COLOR: #a52a2a; FONT-STYLE: normal
+}
+PRE.sh_sourceCode .sh_ip {
+	FONT-WEIGHT: normal; COLOR: #f0f; FONT-STYLE: normal
+}
+PRE.sh_sourceCode .sh_name {
+	FONT-WEIGHT: normal; COLOR: #f0f; FONT-STYLE: normal
+}
+PRE.sh_sourceCode .sh_variable {
+	FONT-WEIGHT: normal; COLOR: #225f2d; FONT-STYLE: normal
+}
+PRE.sh_sourceCode .sh_oldfile {
+	FONT-WEIGHT: normal; COLOR: #f0f; FONT-STYLE: normal
+}
+PRE.sh_sourceCode .sh_newfile {
+	FONT-WEIGHT: normal; COLOR: #f0f; FONT-STYLE: normal
+}
+PRE.sh_sourceCode .sh_difflines {
+	FONT-WEIGHT: normal; COLOR: #a52a2a; FONT-STYLE: normal
+}
+PRE.sh_sourceCode .sh_selector {
+	FONT-WEIGHT: normal; COLOR: #225f2d; FONT-STYLE: normal
+}
+PRE.sh_sourceCode .sh_property {
+	FONT-WEIGHT: normal; COLOR: #a52a2a; FONT-STYLE: normal
+}
+PRE.sh_sourceCode .sh_value {
+	FONT-WEIGHT: normal; COLOR: #f0f; FONT-STYLE: normal
+}

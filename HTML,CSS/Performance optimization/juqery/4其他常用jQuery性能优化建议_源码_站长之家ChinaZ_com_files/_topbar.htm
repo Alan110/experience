@@ -1,0 +1,57 @@
+
+
+//动态载入指定的脚本，并在载入完成后调用callback
+function loadScript(src, charset, callback) {
+    var h = document.getElementsByTagName('head')[0];
+    var ss = h.getElementsByTagName('script');
+    if (ss && ss.length > 0) {
+        for(var i = 0; i < ss.length; i ++) {
+            if (ss[i]._src && ss[i]._src == src) {
+                callback && callback();
+                return;
+            }
+        }
+    }
+    
+    var s = document.createElement("script");
+    s.type = 'text/javascript';
+    s._src = src;
+    s.src = src;
+    if (charset) {
+        s.charset = charset; }
+    
+    if (callback) {
+var isie =  navigator.userAgent.toLowerCase().indexOf('msie')>-1;
+       if (isie) {
+            s.onreadystatechange = function () {
+                if ('complete' == s.readyState||s.readyState=="loaded") {
+                    callback && callback();
+                }
+            };
+        }
+        else s.onload = function () {
+            callback && callback();
+        };
+    }
+    h.appendChild(s);
+}
+
+document.write('<link href="http://img.chinaz.com/max-templates/passport/styles/topbar.css" type="text/css" rel="Stylesheet" /><link href="http://img.chinaz.com/max-templates/default/styles/dialog.css" type="text/css" rel="Stylesheet" />');
+
+var dialogProxyUrl="/httpproxy.aspx";
+ var _topbarHtml ='\
+    <div class="userbar">\
+    \
+        <a href="http://my.chinaz.com/login.html" target="_top">立即登录</a>\
+        <a href="http://my.chinaz.com/register.html")>注册新帐号</a>\
+    \
+    </div>';
+var maxtopbar = document.getElementById("chinaz_topbar");
+if(maxtopbar){
+    maxtopbar.innerHTML = _topbarHtml;
+}
+
+loadScript("http://img.chinaz.com/chinaz_top.js","utf-8",function(){
+dialogProxyUrl="/httpproxy.aspx";
+} );
+

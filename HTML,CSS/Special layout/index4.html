@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	*{padding: 0;margin: 0;}
+	html,body{height: 100%;}
+	.div1{height: 200px;background-color: red;position: absolute;width: 100%;top: 0;left: 0;}
+	.div2{position: absolute;top: 200px;bottom: 0;width: 100%;}/*绝对定位 动态计算高度 ie8 及以上*/
+	.div3{height: 100%;float: left;width: 200px;background-color: blue;}
+	.div4{height:100%;margin-left: 200px;background-color: yellow}
+	</style>
+</head>
+<body>
+	<div class="div1">
+		height: 200px;
+		background-color: red;
+		position: absolute;
+		width: 100%;
+		top: 0;left: 0;
+	</div>
+	<div class="div2">
+		<div class="div3">
+			height: 100%;float: left;width: 200px;background-color: blue;
+		</div>
+		<div class="div4">
+			height:100%;margin-left: 200px;background-color: yellow
+		</div>
+	</div>
+	
+</body>
+</html>

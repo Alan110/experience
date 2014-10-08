@@ -1,0 +1,1374 @@
+BODY {
+	FONT-SIZE: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+DIV {
+	FONT-SIZE: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+ADDRESS {
+	FONT-SIZE: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+BLOCKQUOTE {
+	FONT-SIZE: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+IFRAME {
+	FONT-SIZE: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+UL {
+	FONT-SIZE: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+OL {
+	FONT-SIZE: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+DL {
+	FONT-SIZE: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+DT {
+	FONT-SIZE: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+DD {
+	FONT-SIZE: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+H1 {
+	FONT-SIZE: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+H2 {
+	FONT-SIZE: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+H3 {
+	FONT-SIZE: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+H4 {
+	FONT-SIZE: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+H5 {
+	FONT-SIZE: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+H6 {
+	FONT-SIZE: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+P {
+	FONT-SIZE: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+PRE {
+	FONT-SIZE: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+TABLE {
+	FONT-SIZE: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+CAPTION {
+	FONT-SIZE: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+TH {
+	FONT-SIZE: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+TD {
+	FONT-SIZE: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+FORM {
+	FONT-SIZE: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+LEGEND {
+	FONT-SIZE: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+FIELDSET {
+	FONT-SIZE: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+OL {
+	LIST-STYLE-TYPE: none
+}
+UL {
+	LIST-STYLE-TYPE: none
+}
+IMG {
+	BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-TOP-WIDTH: 0px
+}
+IFRAME {
+	BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-TOP-WIDTH: 0px
+}
+FIELDSET {
+	BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-TOP-WIDTH: 0px
+}
+*:focus {
+	OUTLINE-WIDTH: 0px
+}
+TABLE {
+	BORDER-COLLAPSE: collapse; BORDER-SPACING: 0
+}
+CAPTION {
+	TEXT-ALIGN: left
+}
+TH {
+	TEXT-ALIGN: left
+}
+BODY {
+	FONT: 12px/1.5 "Lucida Grande",Helvetica,Arial
+}
+INPUT {
+	FONT-SIZE: 100%; FONT-FAMILY: inherit
+}
+BUTTON {
+	FONT-SIZE: 100%; FONT-FAMILY: inherit
+}
+SELECT {
+	FONT-SIZE: 100%; FONT-FAMILY: inherit
+}
+TEXTAREA {
+	FONT-SIZE: 100%; FONT-FAMILY: inherit
+}
+TEXTAREA {
+	OVERFLOW: auto
+}
+A:link {
+	TEXT-DECORATION: none; COLOR: #333
+}
+A:visited {
+	TEXT-DECORATION: none; COLOR: #333
+}
+A:hover {
+	TEXT-DECORATION: underline; COLOR: #cc0000
+}
+A:active {
+	TEXT-DECORATION: underline; COLOR: #cc0000
+}
+BUTTON {
+	OVERFLOW: visible
+}
+.clearfix {
+	ZOOM: 1
+}
+.clearfix:after {
+	OVERFLOW: hidden; HEIGHT: 0px; CONTENT: "."; CLEAR: both; DISPLAY: block; VISIBILITY: hidden
+}
+.clear {
+	CLEAR: both
+}
+.toolbar {
+	MARGIN-BOTTOM: 5px
+}
+.toolbar {
+	BACKGROUND: url(img/top_bg.gif) repeat-x 0px 100%
+}
+.toolbar-inner {
+	BACKGROUND: url(img/top_bg.gif) repeat-x 0px 100%
+}
+.toolbar-inner {
+	HEIGHT: 28px; WIDTH: 980px; MARGIN: auto
+}
+.toolbar .quicklink {
+	FLOAT: left; MARGIN-LEFT: -10px; DISPLAY: inline
+}
+.toolbar .userbar {
+	FLOAT: right
+}
+.header {
+	MARGIN: 5px 0px
+}
+.header .brand {
+	FLOAT: left
+}
+.header .brand .logo {
+	HEIGHT: 41px; WIDTH: 141px; BACKGROUND: url(img/logo.jpg) no-repeat; MARGIN-LEFT: 20px; MARGIN-TOP: 10px
+}
+.logo A {
+	CURSOR: pointer; HEIGHT: 41px; WIDTH: 141px; DISPLAY: block; TEXT-INDENT: -999px
+}
+.header .banner {
+	FLOAT: right
+}
+.header .adtext {
+	OVERFLOW: hidden; BORDER-TOP: #b0d7ff 1px solid; HEIGHT: 58px; BORDER-RIGHT: #b0d7ff 1px solid; WIDTH: 260px; BACKGROUND: #f2f6fb; BORDER-BOTTOM: #b0d7ff 1px solid; FLOAT: right; MARGIN-LEFT: 5px; BORDER-LEFT: #b0d7ff 1px solid
+}
+.header .adtext UL {
+	PADDING-BOTTOM: 2px; PADDING-TOP: 2px; PADDING-LEFT: 4px; LINE-HEIGHT: 1.4; PADDING-RIGHT: 4px
+}
+.header .adtext LI {
+	OVERFLOW: hidden; WIDTH: 126px; WHITE-SPACE: nowrap; FLOAT: left
+}
+.contain {
+	WIDTH: 980px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px auto; PADDING-RIGHT: 0px
+}
+.nav {
+	HEIGHT: 34px; BACKGROUND: url(img/navbg.gif) no-repeat; LINE-HEIGHT: 34px
+}
+.nav UL LI {
+	BACKGROUND: url(img/navline.gif) no-repeat right top; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+.nav UL LI A {
+	FONT-SIZE: 14px; FLOAT: left; FONT-WEIGHT: bold; COLOR: #ffffff; PADDING-LEFT: 10px; DISPLAY: block
+}
+.nav UL LI A SPAN {
+	HEIGHT: 34px; FLOAT: left; COLOR: #ffffff; DISPLAY: block; LINE-HEIGHT: 34px; PADDING-RIGHT: 10px
+}
+.nav UL {
+	FLOAT: left
+}
+.nav UL LI A:hover {
+	CURSOR: pointer; TEXT-DECORATION: none; BACKGROUND: url(img/navgb.gif) no-repeat left top; FONT-WEIGHT: bold; COLOR: #1345a3; PADDING-LEFT: 10px
+}
+.nav UL LI A.active {
+	CURSOR: pointer; TEXT-DECORATION: none; BACKGROUND: url(img/navgb.gif) no-repeat left top; FONT-WEIGHT: bold; COLOR: #1345a3; PADDING-LEFT: 10px
+}
+.nav UL LI A:hover SPAN {
+	BACKGROUND: url(img/navgb.gif) no-repeat right top; COLOR: #1345a3; DISPLAY: block; PADDING-RIGHT: 10px
+}
+.nav UL LI A.active SPAN {
+	BACKGROUND: url(img/navgb.gif) no-repeat right top; COLOR: #1345a3; DISPLAY: block; PADDING-RIGHT: 10px
+}
+DIV.search {
+	FLOAT: right; COLOR: #ffffff; MARGIN-RIGHT: 30px; _margin-right: 10px
+}
+DIV.search A {
+	COLOR: #ffffff; MARGIN: 0px 5px
+}
+DIV.search INPUT {
+	BORDER-TOP-STYLE: none; HEIGHT: 23px; WIDTH: 166px; BACKGROUND: url(img/searchbg.gif) no-repeat left top; BORDER-BOTTOM-STYLE: none; FLOAT: left; COLOR: #666666; BORDER-RIGHT-STYLE: none; PADDING-LEFT: 10px; BORDER-LEFT-STYLE: none; MARGIN-TOP: 5px; DISPLAY: block; LINE-HEIGHT: 23px
+}
+DIV.search INPUT.submit {
+	CURSOR: pointer; HEIGHT: 23px; WIDTH: 23px; BACKGROUND: url(img/searchbg.gif) no-repeat -178px top
+}
+.dq {
+	BORDER-TOP: #cde9f7 1px solid; HEIGHT: 34px; BORDER-RIGHT: #cde9f7 1px solid; BACKGROUND: url(img/dqbg.gif) repeat-x; BORDER-BOTTOM: #cde9f7 1px solid; PADDING-LEFT: 10px; MARGIN: 5px 0px; BORDER-LEFT: #cde9f7 1px solid; LINE-HEIGHT: 34px
+}
+.text_left {
+	WIDTH: 693px; FLOAT: left
+}
+.text_right {
+	WIDTH: 279px; FLOAT: left; MARGIN-LEFT: 8px; DISPLAY: inline; _margin-left: 6px
+}
+.top_line {
+	HEIGHT: 4px; BACKGROUND: url(img/text_top.gif) no-repeat
+}
+.text_bd {
+	BORDER-TOP: #d6eaf8 1px; BORDER-RIGHT: #d6eaf8 1px solid; BACKGROUND: url(img/text_bg.gif) #ffffff repeat-x; BORDER-BOTTOM: #d6eaf8 1px solid; BORDER-LEFT: #d6eaf8 1px solid
+}
+.inners {
+	WIDTH: 638px; BORDER-BOTTOM: #d3dff0 1px dashed; PADDING-BOTTOM: 10px; PADDING-TOP: 20px; MARGIN: 0px auto; _margin: -10px auto 0
+}
+.inners H1 {
+	FONT-SIZE: 16px; COLOR: #cc0000; TEXT-ALIGN: center
+}
+.times {
+	WIDTH: 638px; PADDING-BOTTOM: 10px; TEXT-ALIGN: center; PADDING-TOP: 10px; PADDING-LEFT: 0px; MARGIN: 10px auto 0px; PADDING-RIGHT: 0px
+}
+.times EM {
+	FONT-STYLE: normal; MARGIN-RIGHT: 10px
+}
+.times SPAN {
+	POSITION: relative; MARGIN-RIGHT: 15px
+}
+.times SPAN A SPAN {
+	DISPLAY: none
+}
+.times SPAN A.hi {
+	HEIGHT: 15px; WIDTH: 14px; BACKGROUND: url(img/ditu.png) no-repeat -32px -10px; RIGHT: 30px; POSITION: absolute; TOP: 1px; _right: 530px
+}
+.times SPAN A.peo {
+	HEIGHT: 15px; WIDTH: 14px; BACKGROUND: url(img/ditu.png) no-repeat -9px -10px; RIGHT: 10px; POSITION: absolute; _right: 510px
+}
+.zyao {
+	BORDER-TOP: #e1eefb 1px solid; BORDER-RIGHT: #e1eefb 1px solid; WIDTH: 618px; BACKGROUND: #f5fafd; BORDER-BOTTOM: #e1eefb 1px solid; COLOR: #777; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 10px; MARGIN: 15px auto; BORDER-LEFT: #e1eefb 1px solid; PADDING-RIGHT: 10px
+}
+.con {
+	FONT-SIZE: 14px; WIDTH: 638px; MARGIN: 5px auto 0px
+}
+.fy {
+	FONT-SIZE: 12px; COLOR: #014ba4; TEXT-ALIGN: center; MARGIN: 30px 0px 10px
+}
+.fy A {
+	COLOR: #014ba4; MARGIN: 0px 2px
+}
+.fy A B {
+	COLOR: #014ba4; MARGIN: 0px 2px
+}
+.fy A.num {
+	BORDER-TOP: #91b1d8 1px solid; BORDER-RIGHT: #91b1d8 1px solid; BACKGROUND: #eef4f9; BORDER-BOTTOM: #91b1d8 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 5px; BORDER-LEFT: #91b1d8 1px solid; PADDING-RIGHT: 5px
+}
+.fy A.num:hover {
+	TEXT-DECORATION: none; BACKGROUND: #c3dcf5; FONT-WEIGHT: bold
+}
+.fy A.active {
+	TEXT-DECORATION: none; BACKGROUND: #085eb7; COLOR: #fff; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
+}
+.quick_fy {
+	FONT-SIZE: 12px; COLOR: #999; TEXT-ALIGN: center
+}
+.benav {
+	WIDTH: 635px; BACKGROUND: url(img/nrdh.gif) no-repeat; BORDER-BOTTOM: #e7f0fc 1px solid; PADDING-BOTTOM: 5px; MARGIN-TOP: 20px
+}
+.benav .title {
+	MARGIN-BOTTOM: 5px; FONT-SIZE: 12px; FONT-WEIGHT: bold; COLOR: #1345a3; PADDING-LEFT: 15px; LINE-HEIGHT: 14px
+}
+.benav UL LI {
+	OVERFLOW: hidden; WIDTH: 280px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis; MARGIN-LEFT: 20px; -o-text-overflow: ellipsis
+}
+.benav UL LI A:hover {
+	COLOR: #1345a3
+}
+.benav UL LI A.active {
+	FONT-WEIGHT: bold; COLOR: #cc0000
+}
+.text_tag {
+	BORDER-TOP: #cae5ff 1px dashed; HEIGHT: 24px; BORDER-RIGHT: #cae5ff 1px dashed; WIDTH: 613px; BACKGROUND: #ffffff 0px 0px; BORDER-BOTTOM: #cae5ff 1px dashed; PADDING-LEFT: 10px; MARGIN: 10px auto; BORDER-LEFT: #cae5ff 1px dashed; PADDING-RIGHT: 10px
+}
+.benav UL {
+	FLOAT: left
+}
+.text_tag H5 {
+	FONT-SIZE: 12px; FLOAT: left; FONT-WEIGHT: normal; COLOR: #000000; PADDING-TOP: 3px; DISPLAY: block
+}
+.text_tag SPAN {
+	FLOAT: right; FONT: 12px/24px Tahoma
+}
+.text_tag EM {
+	FONT-STYLE: normal
+}
+.xg {
+	MARGIN-BOTTOM: 5px; BORDER-TOP: #e7f0fc 1px solid; HEIGHT: 28px; BORDER-RIGHT: #e7f0fc 1px solid; BACKGROUND: #fcfeff; BORDER-BOTTOM: #e7f0fc 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 12px; BORDER-LEFT: #e7f0fc 1px solid; MARGIN-TOP: 5px; PADDING-RIGHT: 12px
+}
+.xg LI {
+	WIDTH: 325px; FLOAT: left; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px
+}
+.relative {
+	MARGIN-BOTTOM: 5px
+}
+.relative .rel_left {
+	WIDTH: 360px; FLOAT: left
+}
+.relative .rel_left .title {
+	FONT-SIZE: 14px; HEIGHT: 37px; WIDTH: 340px; BACKGROUND: url(img/ditu.png) no-repeat left -167px; FONT-WEIGHT: bold; COLOR: #1345a3; PADDING-TOP: 5px; PADDING-LEFT: 20px
+}
+.relative .rel_left UL {
+	BORDER-TOP: #d9eaf6 1px; HEIGHT: 150px; BORDER-RIGHT: #d9eaf6 1px solid; BORDER-BOTTOM: #d9eaf6 1px solid; PADDING-BOTTOM: 11px; PADDING-TOP: 4px; PADDING-LEFT: 12px; BORDER-LEFT: #d9eaf6 1px solid; PADDING-RIGHT: 0px; _padding: 2px 0 8px 12px; _height: 145px
+}
+.relative .rel_left UL LI {
+	OVERFLOW: hidden; WIDTH: 325px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis; LINE-HEIGHT: 22px; -o-text-overflow: ellipsis
+}
+.relative .rel_left UL LI A {
+	COLOR: #1345a3
+}
+.relative .rel_left UL LI A:hover {
+	COLOR: #cc0000
+}
+.relative .rel_right {
+	BORDER-TOP: #d9eaf6 1px solid; BORDER-RIGHT: #d9eaf6 1px solid; WIDTH: 311px; BORDER-BOTTOM: #d9eaf6 1px solid; FLOAT: left; PADDING-BOTTOM: 3px; PADDING-TOP: 10px; PADDING-LEFT: 10px; MARGIN-LEFT: 5px; BORDER-LEFT: #d9eaf6 1px solid; PADDING-RIGHT: 5px; _width: 303px
+}
+.relative .rel_right .picatext {
+	BORDER-TOP-STYLE: none; BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; PADDING-LEFT: 0px; BORDER-LEFT-STYLE: none; PADDING-RIGHT: 0px
+}
+.picatext P {
+	MARGIN-BOTTOM: -7px; FLOAT: left; MARGIN-RIGHT: 10px; _margin-right: 0px; _margin-bottom: -7px
+}
+.picatext {
+	BORDER-BOTTOM: #999 1px dashed; PADDING-BOTTOM: 6px
+}
+.picatext .lie P {
+	FLOAT: none
+}
+.picatext .lie {
+	WIDTH: 310px; _width: 298px
+}
+.picatext P.text {
+	WIDTH: 200px; _width: 200px
+}
+.picatext P A IMG {
+	BORDER-TOP: #ccc 1px solid; HEIGHT: 70px; BORDER-RIGHT: #ccc 1px solid; WIDTH: 83px; BORDER-BOTTOM: #ccc 1px solid; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; PADDING-LEFT: 2px; MARGIN: 10px 0px 0px; BORDER-LEFT: #ccc 1px solid; DISPLAY: block; PADDING-RIGHT: 2px
+}
+.picatext P A {
+	OVERFLOW: hidden; FONT-SIZE: 14px; WIDTH: 189px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis; FONT-WEIGHT: bold; COLOR: #cc0000; -o-text-overflow: ellipsis
+}
+.relative .rel_right .picatext P A {
+	COLOR: #cc0000
+}
+.relative .rel_right .picatext P.text {
+	MARGIN-LEFT: 0px; _margin-left: 10px
+}
+.relative .rel_right .picatext P SPAN A {
+	FONT-SIZE: 12px; COLOR: #999999
+}
+.index_content .left .in_text .in_body .in_body_lefts .picatext P A {
+	COLOR: #1345a3; DISPLAY: block
+}
+.index_content .left .in_text .in_body .in_body_lefts .picatext P A:hover {
+	COLOR: #cc0000
+}
+.index_content .left .in_text .in_body .in_body_lefts .picatext P SPAN A.xq {
+	FLOAT: none; COLOR: #999; DISPLAY: inline
+}
+.picatext P SPAN {
+	MARGIN-TOP: 3px; DISPLAY: block
+}
+.picatext .lie {
+	MARGIN: 0px 7px; _margin: 0 3px
+}
+.picatext_line {
+	BORDER-BOTTOM-STYLE: none
+}
+.relative .rel_right UL {
+	BORDER-TOP: #cccccc 1px dashed; PADDING-BOTTOM: 0px; PADDING-TOP: 7px; PADDING-LEFT: 5px; CLEAR: both; MARGIN-TOP: 18px; PADDING-RIGHT: 5px; _padding: 5px 5px 0px 5px; _margin-top: 11px
+}
+.relative .rel_right UL LI {
+	OVERFLOW: hidden; WIDTH: 290px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis; -o-text-overflow: ellipsis
+}
+.relative .rel_right UL LI A:hover {
+	COLOR: #cc0000
+}
+.panel-box-red .panel-head .inner {
+	HEIGHT: 41px; PADDING-LEFT: 15px
+}
+.panel-box-green .panel-head .inner {
+	HEIGHT: 41px; PADDING-LEFT: 15px
+}
+.panel-box-gray .panel-head .inner {
+	HEIGHT: 41px; PADDING-LEFT: 15px
+}
+.panel-head .extra {
+	FLOAT: right
+}
+.comment_con {
+	BORDER-TOP-STYLE: none; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px
+}
+.commenttab {
+	FLOAT: left; MARGIN-TOP: 0px; LINE-HEIGHT: 30px
+}
+.commenttab A {
+	FONT-SIZE: 117%; BACKGROUND: url(img/plqie.gif) no-repeat right top; POSITION: relative; FLOAT: left; FONT-WEIGHT: bold; PADDING-RIGHT: 10px; MARGIN-RIGHT: 10px
+}
+.commenttab A SPAN {
+	BACKGROUND: url(img/plqie.gif) no-repeat left top; FLOAT: left; COLOR: #1345a3; PADDING-TOP: 5px; PADDING-LEFT: 10px
+}
+.commenttab A.current {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #c00
+}
+.commenttab A.current SPAN {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #c00
+}
+.commenttab A:hover {
+	TEXT-DECORATION: none
+}
+.commentstats {
+	COLOR: #969696; PADDING-TOP: 10px; PADDING-RIGHT: 10px
+}
+.comment-item {
+	BORDER-BOTTOM: #dcdcdc 1px dashed; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 0px; MARGIN: -1px 0px 0px; PADDING-RIGHT: 0px
+}
+.comment-info .user {
+	FLOAT: left
+}
+.comment-info .user A:link {
+	COLOR: #3268cc
+}
+.comment-info .user A:visited {
+	COLOR: #3268cc
+}
+.comment-info .date {
+	FLOAT: right
+}
+.comment-info {
+	MARGIN-BOTTOM: 5px
+}
+.comment-content {
+	MARGIN-BOTTOM: 5px
+}
+.commentform {
+	PADDING-TOP: 20px
+}
+.commentform .row {
+	OVERFLOW: hidden; MARGIN-BOTTOM: 10px; ZOOM: 1
+}
+.commentform .row-button {
+	WIDTH: auto; MARGIN-LEFT: 10px
+}
+.commentform .label {
+	WIDTH: 40px; FLOAT: left; MARGIN-RIGHT: 10px
+}
+.commentform .text {
+	WIDTH: 90px; FLOAT: left; MARGIN-RIGHT: 10px
+}
+.commentform TEXTAREA {
+	HEIGHT: 60px; WIDTH: 400px; FLOAT: left
+}
+.commentform .captcha {
+	WIDTH: 50px
+}
+.commentform IMG {
+	VERTICAL-ALIGN: top
+}
+.commentform .button {
+	FLOAT: left
+}
+.commentform .count {
+	FLOAT: left; MARGIN-LEFT: 10px
+}
+.edit .title {
+	HEIGHT: 31px; WIDTH: 269px; BACKGROUND: url(img/ditu.png) no-repeat left -137px; FONT-WEIGHT: bold; COLOR: #ffffff; PADDING-LEFT: 10px; LINE-HEIGHT: 31px
+}
+.edit_bd {
+	BORDER-TOP: #dbe6f5 1px; HEIGHT: auto; BORDER-RIGHT: #dbe6f5 1px solid; BACKGROUND: url(img/lan1bg.jpg) #f5fafe repeat-x; BORDER-BOTTOM: #dbe6f5 1px solid; MIN-HEIGHT: 20px; BORDER-LEFT: #dbe6f5 1px solid; _height: 20px
+}
+.edit .active_best {
+	BACKGROUND: url(img/ditu.png) no-repeat -279px -137px; COLOR: #1345a3
+}
+.edit_bd .pic_text UL LI {
+	MARGIN-BOTTOM: -15px; FLOAT: left; MARGIN-RIGHT: 10px; _margin-bottom: 0px
+}
+.edit_bd .pic_text UL {
+	PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 15px; PADDING-RIGHT: 0px; _padding: 20px 0px 20px 13px
+}
+.edit_bd .pic_text UL LI A {
+	BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; PADDING-LEFT: 2px; BORDER-LEFT: #cccccc 1px solid; DISPLAY: block; PADDING-RIGHT: 2px
+}
+.edit_bd .pic_text UL LI A:hover {
+	COLOR: #cc0000
+}
+.edit_bd .pic2 {
+	PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px
+}
+.edit_bd .pic2 A {
+	BORDER-TOP: #cccccc 1px solid; HEIGHT: 73px; BORDER-RIGHT: #cccccc 1px solid; WIDTH: 237px; BACKGROUND: #ffffff; BORDER-BOTTOM: #cccccc 1px solid; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; PADDING-LEFT: 2px; BORDER-LEFT: #cccccc 1px solid; DISPLAY: block; PADDING-RIGHT: 2px
+}
+.edit_bd .pic_text UL LI H1 A {
+	BORDER-TOP-STYLE: none; FONT-SIZE: 12px; WIDTH: 111px; BORDER-BOTTOM-STYLE: none; FONT-WEIGHT: normal; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; DISPLAY: block
+}
+.edit_bd .pic_text UL LI A IMG {
+	BORDER-TOP-STYLE: none; HEIGHT: 76px; WIDTH: 111px; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; DISPLAY: block
+}
+.edit_bd UL.line {
+	MARGIN-BOTTOM: 5px; COLOR: #1345a3; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 15px; MARGIN-TOP: 20px; PADDING-RIGHT: 15px; _margin-top: 10px
+}
+.edit_bd UL.lines {
+	MARGIN: 0px 0px 9px
+}
+.edit_bd UL.Sequence {
+	BACKGROUND: url(img/numicon.png) no-repeat left 19px; PADDING-TOP: 10px; PADDING-LEFT: 20px; MARGIN: 0px 0px 5px 15px
+}
+.edit_bd UL.Sequence LI {
+	OVERFLOW: hidden; WIDTH: 218px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis; BORDER-BOTTOM: #e7ebef 1px solid; LINE-HEIGHT: 27px; -o-text-overflow: ellipsis
+}
+.edit_bd UL.Sequence LI A:hover {
+	COLOR: #cc0000
+}
+.edit_bd UL.line LI {
+	OVERFLOW: hidden; WIDTH: 239px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis; LINE-HEIGHT: 22px; -o-text-overflow: ellipsis
+}
+.edit_bd UL.line LI A {
+	COLOR: #1345a3; MARGIN: 0px 5px
+}
+.edit_bd UL.line LI A.bo {
+	COLOR: #999999
+}
+.edit_bd UL.line LI EM {
+	COLOR: #999999
+}
+.edit_bd UL.line LI A:hover {
+	COLOR: #cc0000
+}
+.icon UL {
+	BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.icon UL LI {
+	BACKGROUND: url(img/icon.gif) no-repeat left 9px; PADDING-LEFT: 10px
+}
+.soft_down {
+	BORDER-TOP: #c6dcf7 1px solid; BORDER-RIGHT: #c6dcf7 1px solid; WIDTH: 558px; BACKGROUND: #f7fafb; BORDER-BOTTOM: #c6dcf7 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 12px; PADDING-LEFT: 18px; MARGIN: 0px auto 5px; BORDER-LEFT: #c6dcf7 1px solid; PADDING-RIGHT: 2px; _padding: 12px 2px 0px 18px
+}
+.soft_down .title {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px -5px; PADDING-RIGHT: 0px; _margin: 0px 0 -5px 0
+}
+.soft_down .title H1 A {
+	OVERFLOW: hidden; FONT-SIZE: 14px; HEIGHT: 24px; WIDTH: 420px; FLOAT: left; FONT-WEIGHT: bold; COLOR: #cc0000
+}
+.soft_down .title A {
+	FLOAT: right; DISPLAY: block; MARGIN-RIGHT: 20px
+}
+.soft_down .title A IMG {
+	BORDER-TOP-STYLE: none; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none
+}
+.softimg {
+	FLOAT: left
+}
+.softtext {
+	FLOAT: left
+}
+.softimg {
+	FLOAT: left; MARGIN: 5px 0px 0px
+}
+.softimg A IMG {
+	BORDER-TOP: #999999 1px solid; BORDER-RIGHT: #999999 1px solid; BORDER-BOTTOM: #999999 1px solid; BORDER-LEFT: #999999 1px solid
+}
+.softimg H1 A {
+	BORDER-TOP-STYLE: none; FONT-SIZE: 12px; WIDTH: 134px; BORDER-BOTTOM-STYLE: none; FONT-WEIGHT: normal; COLOR: #999; TEXT-ALIGN: center; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; DISPLAY: block
+}
+.lisofttext .soft_down .softimg IMG {
+	HEIGHT: 67px; WIDTH: 134px; DISPLAY: block
+}
+.softtext {
+	FONT-SIZE: 12px; WIDTH: 398px; FLOAT: left
+}
+.softtext A {
+	FONT-SIZE: 16px; FLOAT: left; COLOR: #1345a3; DISPLAY: block
+}
+.softtext UL.text_ul LI {
+	OVERFLOW: hidden; WIDTH: 184px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis; FLOAT: left; -o-text-overflow: ellipsis
+}
+.softtext UL.text_ul LI A {
+	CURSOR: pointer; FONT-SIZE: 12px; FLOAT: none; COLOR: #1345a3; DISPLAY: inline
+}
+.softtext UL.text_ul LI A:visited {
+	COLOR: #1345a3
+}
+.softtext UL.text_ul LI A:hover {
+	COLOR: #cc0000
+}
+.softtext UL.text_ul {
+	LIST-STYLE-TYPE: none; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 5px; MARGIN-LEFT: 10px; CLEAR: both; PADDING-RIGHT: 5px
+}
+.footer {
+	COLOR: #666; TEXT-ALIGN: center; MARGIN-TOP: 30px
+}
+.footer P {
+	MARGIN-BOTTOM: 10px
+}
+.footer .footer-nav {
+	COLOR: #999
+}
+.footer .footer-nav A:link {
+	COLOR: #36c; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px
+}
+.footer .footer-nav A:visited {
+	COLOR: #36c; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px
+}
+.lisofttext {
+	OVERFLOW: hidden; FONT-SIZE: 14px; FONT-FAMILY: "ËÎÌו"; WIDTH: 640px; LINE-HEIGHT: 22px
+}
+.lisofttext UL {
+	LIST-STYLE-TYPE: disc; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 40px; PADDING-RIGHT: 40px
+}
+.lisofttext OL {
+	LIST-STYLE-TYPE: decimal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 50px; PADDING-RIGHT: 50px
+}
+.lisofttext P {
+	PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.lisofttext IMG {
+	
+}
+.lisofttext .logo {
+	BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-TOP-WIDTH: 0px
+}
+.content TBODY TD {
+	lisofttext: 8px
+}
+.lisofttext A {
+	COLOR: #1345a3
+}
+.lisofttext A:hover {
+	COLOR: #cc0000
+}
+.lisofttext TABLE {
+	FONT-SIZE: 12px; BORDER-TOP: #d6e1e8 1px solid; BORDER-RIGHT: #d6e1e8 1px solid; BORDER-BOTTOM: #d6e1e8 1px solid; MARGIN: 0px auto 10px; BORDER-LEFT: #d6e1e8 1px solid
+}
+.lisofttext TABLE TR {
+	borde: 1px solid  #d6e1e8
+}
+.lisofttext TABLE TR TD {
+	BORDER-RIGHT: #d6e1e8 1px solid; BACKGROUND: #f5fafa; BORDER-BOTTOM: #d6e1e8 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
+}
+.lisofttext H1 {
+	COLOR: #000
+}
+.lisofttext H2 {
+	COLOR: #000
+}
+.lisofttext H3 {
+	COLOR: #000
+}
+.lisofttext H4 {
+	COLOR: #000
+}
+.lisofttext H5 {
+	COLOR: #000
+}
+.lisofttext H6 {
+	COLOR: #000
+}
+.lisofttext TR {
+	BORDER-TOP: #c1dad7 1px solid; BORDER-RIGHT: #c1dad7 1px solid; BORDER-BOTTOM: #c1dad7 1px solid; COLOR: #4f6b72; PADDING-BOTTOM: 6px; TEXT-ALIGN: left; PADDING-TOP: 6px; PADDING-LEFT: 12px; LETTER-SPACING: 1px; PADDING-RIGHT: 6px
+}
+.lisofttext PRE {
+	WORD-WRAP: break-word; BORDER-TOP: #bbbbbb 1px dashed; FONT-FAMILY: "Consolas","Monaco","Bitstream Vera Sans Mono","Courier New",Courier,monospace; BORDER-RIGHT: #bbbbbb 1px dashed; WIDTH: 600px; WHITE-SPACE: pre-wrap; BORDER-BOTTOM: #bbbbbb 1px dashed; COLOR: #002bb8; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; PADDING-LEFT: 3px; MARGIN: 8px; BORDER-LEFT: #bbbbbb 5px solid; PADDING-RIGHT: 3px; BACKGROUND-COLOR: #f7f7f7
+}
+.relativebd UL LI A {
+	OVERFLOW: hidden; WIDTH: 340px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis; DISPLAY: block; -o-text-overflow: ellipsis
+}
+.quick_link {
+	MARGIN: 5px 0px
+}
+.quick_link .son {
+	BORDER-TOP: #e6f1f7 1px solid; HEIGHT: 42px; BORDER-RIGHT: #e6f1f7 1px solid; WIDTH: 486px; BACKGROUND: url(img/index_q_bg.jpg) repeat-x; BORDER-BOTTOM: #e6f1f7 1px solid; FLOAT: left; MARGIN: 0px 0px 5px; BORDER-LEFT: #e6f1f7 1px solid
+}
+.quick_link .left {
+	MARGIN-LEFT: 4px
+}
+.quick_link .son SPAN {
+	FONT-SIZE: 14px; WIDTH: 99px; BACKGROUND: url(img/index_q_line.jpg) no-repeat right 50%; FLOAT: left; FONT-WEIGHT: bold; COLOR: #666666; TEXT-ALIGN: center; DISPLAY: block; LINE-HEIGHT: 42px
+}
+.quick_link .son .link {
+	FLOAT: left; MARGIN: 0px 10px
+}
+.quick_link .son .link P.father {
+	FONT-SIZE: 14px; FONT-WEIGHT: bold; COLOR: #006cbb; TEXT-ALIGN: center
+}
+.quick_link .son .link P.father A {
+	FONT-SIZE: 14px; FONT-WEIGHT: bold; COLOR: #006cbb
+}
+.quick_link .son .link P A {
+	MARGIN: 0px 5px
+}
+.quick_link .son .link P A:hover {
+	COLOR: #cc0000
+}
+.first {
+	MARGIN-BOTTOM: 5px; MARGIN-TOP: -2px
+}
+.first .hd {
+	FLOAT: left
+}
+.first .new_active {
+	FLOAT: left
+}
+.first .study {
+	FLOAT: left
+}
+.first .new_active {
+	BORDER-TOP: #cbe2f0 1px; BORDER-RIGHT: #cbe2f0 1px solid; WIDTH: 359px; BACKGROUND: url(img/drdr.png) repeat-x; BORDER-BOTTOM: #cbe2f0 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 15px; PADDING-LEFT: 15px; MARGIN-LEFT: 5px; BORDER-LEFT: #cbe2f0 1px solid; PADDING-RIGHT: 15px
+}
+.first .new_active P.title {
+	MARGIN-BOTTOM: 8px; TEXT-ALIGN: center
+}
+.first .new_active P.title A {
+	FONT-SIZE: 16px; FONT-WEIGHT: bold; COLOR: #cc0000
+}
+.first .new_active P {
+	LINE-HEIGHT: 20px
+}
+.first .new_active UL.fix {
+	MARGIN: 13px 0px 0px -20px; _margin: 12px 0 0 -30px
+}
+.first .new_active UL.fix LI {
+	OVERFLOW: hidden; WIDTH: 168px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis; FLOAT: left; MARGIN: 0px 0px 0px 20px; -o-text-overflow: ellipsis; _width: 150px
+}
+.first .new_active UL.fix LI A {
+	FONT-SIZE: 12px; COLOR: #1345a3; LINE-HEIGHT: 22px
+}
+.first .new_active UL.notfix {
+	BORDER-TOP: #cccccc 1px dashed; PADDING-TOP: 11px; MARGIN: 10px 0px 5px -5px; _padding-top: 0px
+}
+.first .new_active UL.notfix LI A {
+	FLOAT: left; COLOR: #999; MARGIN: 0px 5px; DISPLAY: block
+}
+.first .new_active UL.notfix LI EM {
+	FLOAT: left; FONT-STYLE: normal
+}
+.first .new_active UL.notfix LI {
+	FONT-SIZE: 14px; POSITION: relative; COLOR: #999; CLEAR: both; LINE-HEIGHT: 22px
+}
+.first .new_active UL.notfix LI SPAN {
+	WIDTH: 50px; FLOAT: right; COLOR: #999; TEXT-ALIGN: right; DISPLAY: block
+}
+.first .new_active UL.notfix LI A.text {
+	OVERFLOW: hidden; WIDTH: 250px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis; COLOR: #1345a3; -o-text-overflow: ellipsis
+}
+.first .new_active UL.fix LI A:hover {
+	COLOR: #cc0000
+}
+.first .new_active UL.notfix LI A:hover {
+	COLOR: #cc0000
+}
+.first .study {
+	HEIGHT: 217px; WIDTH: 271px; BACKGROUND: url(img/new_q_topbg.png) no-repeat left top; MARGIN-LEFT: 5px; _margin-left: 5px
+}
+.first .study .pic {
+	HEIGHT: 217px; WIDTH: 267px; BACKGROUND: url(img/new_q_topbg.png) no-repeat right top; FLOAT: right
+}
+.first .study .pic A {
+	BORDER-TOP: #cccccc 1px solid; HEIGHT: 73px; BORDER-RIGHT: #cccccc 1px solid; WIDTH: 237px; BACKGROUND: #ffffff; BORDER-BOTTOM: #cccccc 1px solid; FLOAT: left; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; PADDING-LEFT: 2px; MARGIN: 10px 0px 5px 10px; BORDER-LEFT: #cccccc 1px solid; DISPLAY: block; PADDING-RIGHT: 2px; _margin: 10px 0 5px 5px
+}
+.first .study .pic .btn A.father {
+	BORDER-TOP: #cccccc 1px solid; HEIGHT: 17px; BORDER-RIGHT: #cccccc 1px solid; WIDTH: 66px; BACKGROUND: url(img/btn_f_bg.jpg) repeat-x; BORDER-BOTTOM: #cccccc 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #cccccc 1px solid; LINE-HEIGHT: 17px
+}
+.first .study .pic .btn A {
+	BORDER-TOP: #eff3f6 1px solid; HEIGHT: auto; BORDER-RIGHT: #eff3f6 1px solid; WIDTH: auto; BACKGROUND: url(img/btn_s_bg.jpg) repeat-x; BORDER-BOTTOM: #eff3f6 1px solid; PADDING-BOTTOM: 2px; TEXT-ALIGN: center; PADDING-TOP: 2px; PADDING-LEFT: 3px; MARGIN: 5px 5px 0px; BORDER-LEFT: #eff3f6 1px solid; PADDING-RIGHT: 3px
+}
+.first .study .pic P {
+	CLEAR: both; MARGIN: 0px
+}
+.first .study .pic .s A {
+	MARGIN: 5px 2px
+}
+.first .study .qieh .q_body {
+	BORDER-TOP: #cee3ec 1px; HEIGHT: 65px; BORDER-RIGHT: #cee3ec 1px solid; BORDER-BOTTOM: #cee3ec 1px solid; PADDING-BOTTOM: 7px; PADDING-TOP: 7px; PADDING-LEFT: 7px; BORDER-LEFT: #cee3ec 1px solid; DISPLAY: none; PADDING-RIGHT: 7px; _padding: 6px
+}
+.first .study .qieh .q_body A {
+	BORDER-TOP-STYLE: none; HEIGHT: auto; WIDTH: auto; BACKGROUND: none transparent scroll repeat 0% 0%; WHITE-SPACE: nowrap; BORDER-BOTTOM-STYLE: none; FLOAT: none; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; PADDING-LEFT: 0px; MARGIN: 0px; BORDER-LEFT-STYLE: none; DISPLAY: inline; LINE-HEIGHT: 22px; PADDING-RIGHT: 0px; _margin: 0px
+}
+.first .study .qieh .q_body EM {
+	FLOAT: left; FONT-STYLE: normal
+}
+.first .study .qieh .title {
+	HEIGHT: 26px; BACKGROUND: url(img/qie_bg.gif) repeat-x
+}
+.first .study .qieh .title A {
+	BORDER-TOP-STYLE: none; HEIGHT: 26px; WIDTH: 76px; BACKGROUND: url(img/ditu.png) no-repeat -129px -4px; BORDER-BOTTOM-STYLE: none; FLOAT: left; PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; PADDING-LEFT: 0px; MARGIN: 0px 5px 0px 0px; BORDER-LEFT-STYLE: none; DISPLAY: block; LINE-HEIGHT: 26px; PADDING-RIGHT: 0px
+}
+.first .study .qieh .title A:hover {
+	BACKGROUND: url(img/ditu.png) no-repeat -53px -4px
+}
+.first .study .qieh .title A.active {
+	BACKGROUND: url(img/ditu.png) no-repeat -53px -4px
+}
+.index_content {
+	MARGIN-TOP: 5px
+}
+.index_content .left {
+	FLOAT: left
+}
+.index_content .right {
+	FLOAT: left
+}
+.index_content .left {
+	WIDTH: 695px
+}
+.index_content .left .in_text .title {
+	HEIGHT: 32px; WIDTH: 695px; BACKGROUND: url(img/ditu.png) no-repeat left -103px; POSITION: relative; COLOR: #1345a3; PADDING-LEFT: 30px; LINE-HEIGHT: 32px; _width: 671px
+}
+.index_content .left .in_text .title SPAN {
+	FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.index_content .left .in_text .title A {
+	RIGHT: 40px; POSITION: absolute; COLOR: #1345a3; TOP: 0px; _right: 20px
+}
+.index_content .left .in_text .in_body {
+	BORDER-TOP: #e7f1f9 1px; HEIGHT: auto; BORDER-RIGHT: #e7f1f9 1px solid; BORDER-BOTTOM: #e7f1f9 1px solid; BORDER-LEFT: #e7f1f9 1px solid; _height: 50px
+}
+.index_content .left .in_text .in_body .in_body_left .picatext P.text {
+	OVERFLOW: hidden; WIDTH: 264px; TEXT-OVERFLOW: ellipsis; MARGIN-LEFT: 0px; _margin-left: 10px; -o-text-overflow: ellipsis
+}
+.index_content .left .in_text .in_body .in_body_left .picatext {
+	MARGIN-BOTTOM: 5px
+}
+.index_content .left .in_text .in_body .in_body_left .picatext P.text A {
+	COLOR: #cc0000
+}
+.index_content .left .in_text .in_body .in_body_left {
+	WIDTH: 373px; PADDING-BOTTOM: 0px; PADDING-TOP: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+.index_content .left .in_text .in_body .in_body_left {
+	FLOAT: left
+}
+.index_content .left .in_text .in_body .in_body_right {
+	FLOAT: left
+}
+.index_content .left .in_text .in_body .in_body_lefts .picatext P.text {
+	WIDTH: 200px
+}
+.index_content .left .in_text .in_body .in_body_lefts .picatext {
+	MARGIN-BOTTOM: 5px
+}
+.index_content .left .in_text .in_body .in_body_lefts {
+	WIDTH: 200px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+.index_content .left .in_text .in_body .in_body_lefts {
+	FLOAT: left
+}
+.index_content .left .in_text .in_body .in_body_right {
+	FLOAT: left
+}
+.index_content .left .in_text .in_body .in_body_right {
+	PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+.index_content .left .in_text .in_body .in_body_right .pic {
+	MARGIN-BOTTOM: 10px
+}
+.index_content .left .in_text .in_body .in_body_right UL LI {
+	OVERFLOW: hidden; WIDTH: 273px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis; LINE-HEIGHT: 22px; -o-text-overflow: ellipsis
+}
+.index_content .left .in_text .in_body .in_body_right UL {
+	PADDING-TOP: 0px
+}
+.index_content .left .in_text .in_body .rights UL LI {
+	OVERFLOW: hidden; WIDTH: 217px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis; LINE-HEIGHT: 22px; -o-text-overflow: ellipsis
+}
+.index_content .left .in_text .in_body .in_body_right UL LI A {
+	FONT-SIZE: 14px
+}
+.index_content .left .in_text {
+	MARGIN-BOTTOM: 5px
+}
+.index_content .left .in_text .in_body .in_body_right .pic A {
+	BORDER-TOP: #cccccc 1px solid; HEIGHT: 61px; BORDER-RIGHT: #cccccc 1px solid; WIDTH: 215px; BORDER-BOTTOM: #cccccc 1px solid; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; PADDING-LEFT: 2px; BORDER-LEFT: #cccccc 1px solid; DISPLAY: block; PADDING-RIGHT: 2px
+}
+.index_content .left .in_text .in_body .in_body_right .pic A IMG {
+	HEIGHT: 61px; WIDTH: 215px; DISPLAY: block
+}
+.index_content .right .text_right {
+	WIDTH: 279px; MARGIN-LEFT: 6px; _margin-left: 0px
+}
+.text_fen {
+	MARGIN-BOTTOM: 5px
+}
+.text_fen .title {
+	HEIGHT: 20px; WIDTH: 325px; BACKGROUND: url(img/ditu.png) no-repeat left -67px; PADDING-TOP: 15px; PADDING-RIGHT: 20px
+}
+.text_fen .title A {
+	FLOAT: right; COLOR: #1345a3
+}
+.text_fen .left_hjbody {
+	BORDER-TOP: #d7eaf9 1px; BORDER-RIGHT: #d7eaf9 1px solid; WIDTH: 323px; BACKGROUND: url(img/hj_body.gif) #ffffff repeat-x; BORDER-BOTTOM: #d7eaf9 1px solid; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 10px; MIN-HEIGHT: 20px; BORDER-LEFT: #d7eaf9 1px solid; PADDING-RIGHT: 10px
+}
+.text_fen .left_hjbody .picatext P.text A {
+	MARGIN-BOTTOM: 3px; FONT-WEIGHT: bold; COLOR: #cc0000; DISPLAY: block
+}
+.text_fen .left_hjbody .picatext P SPAN A.xq {
+	FONT-SIZE: 12px; FONT-WEIGHT: normal; COLOR: #1345a3; MARGIN-LEFT: 5px; DISPLAY: inline
+}
+.left_hj {
+	FLOAT: left
+}
+.left_hjbody .picatext P.text {
+	WIDTH: 214px; MARGIN-LEFT: 0px; _margin-left: 10px
+}
+.left_hjbody UL LI A {
+	OVERFLOW: hidden; FONT-SIZE: 14px; WIDTH: 264px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis; FLOAT: left; DISPLAY: block; -o-text-overflow: ellipsis
+}
+.left_hjbody UL LI SPAN {
+	FLOAT: right; COLOR: #999
+}
+.left_hjbody UL LI {
+	CLEAR: both; LINE-HEIGHT: 22px
+}
+.left_hjbody UL {
+	MARGIN-TOP: 5px
+}
+.s .title {
+	BACKGROUND: url(img/ditu.png) no-repeat left -32px
+}
+.y .title {
+	BACKGROUND: url(img/ditu.png) no-repeat -345px -67px
+}
+.y UL LI {
+	LINE-HEIGHT: 21px; _line-height: 23px
+}
+.r UL LI {
+	LINE-HEIGHT: 21px; _line-height: 23px
+}
+.y UL {
+	PADDING-BOTTOM: 3px; PADDING-TOP: 4px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; _padding: 2px 0 3px 0
+}
+.r UL {
+	PADDING-BOTTOM: 3px; PADDING-TOP: 4px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; _padding: 2px 0 3px 0
+}
+.y UL LI EM {
+	FLOAT: left; DISPLAY: block
+}
+.y UL LI A {
+	FLOAT: left; DISPLAY: block
+}
+.r UL LI EM {
+	FLOAT: left; DISPLAY: block
+}
+.r UL LI A {
+	FLOAT: left; DISPLAY: block
+}
+.y UL LI EM {
+	COLOR: #999999; FONT-STYLE: normal
+}
+.r UL LI EM {
+	COLOR: #999999; FONT-STYLE: normal
+}
+.y UL LI A.lb {
+	OVERFLOW: hidden; WIDTH: 57px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: clip; COLOR: #999999; -o-text-overflow: clip
+}
+.r UL LI A.lb {
+	OVERFLOW: hidden; WIDTH: 57px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: clip; COLOR: #999999; -o-text-overflow: clip
+}
+.y UL LI A.lb:hover {
+	WIDTH: 57px; COLOR: #cc0000
+}
+.r UL LI A.lb:hover {
+	WIDTH: 57px; COLOR: #cc0000
+}
+.y UL LI A {
+	OVERFLOW: hidden; FONT-SIZE: 14px; WIDTH: 230px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis; MARGIN: 0px 5px; -o-text-overflow: ellipsis
+}
+.r UL LI A {
+	OVERFLOW: hidden; FONT-SIZE: 14px; WIDTH: 230px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis; MARGIN: 0px 5px; -o-text-overflow: ellipsis
+}
+.r .title {
+	BACKGROUND: url(img/ditu.png) no-repeat -345px -32px
+}
+.y .left_hjbody .picatext P A IMG {
+	BORDER-TOP: #ccc 1px solid; HEIGHT: 60px; BORDER-RIGHT: #ccc 1px solid; WIDTH: 72px; BORDER-BOTTOM: #ccc 1px solid; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; PADDING-LEFT: 2px; MARGIN: 6px 0px 0px; BORDER-LEFT: #ccc 1px solid; DISPLAY: block; PADDING-RIGHT: 2px
+}
+.r .left_hjbody .picatext P A IMG {
+	BORDER-TOP: #ccc 1px solid; HEIGHT: 60px; BORDER-RIGHT: #ccc 1px solid; WIDTH: 72px; BORDER-BOTTOM: #ccc 1px solid; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; PADDING-LEFT: 2px; MARGIN: 6px 0px 0px; BORDER-LEFT: #ccc 1px solid; DISPLAY: block; PADDING-RIGHT: 2px
+}
+.y .left_hjbody .picatext P.text {
+	WIDTH: 225px; MARGIN-LEFT: 0px; _margin-left: 10px
+}
+.r .left_hjbody .picatext P.text {
+	WIDTH: 225px; MARGIN-LEFT: 0px; _margin-left: 10px
+}
+.index_content .left .in_text .in_body .in_body_left .picatext P SPAN A.xq {
+	FONT-SIZE: 12px; FONT-WEIGHT: normal; COLOR: #1345a3
+}
+#imgPlay {
+	OVERFLOW: hidden; WIDTH: 308px; POSITION: relative; ZOOM: 1; FLOAT: left; MARGIN: 0px auto
+}
+#imgPlay .imgs IMG {
+	BORDER-TOP: #dbdbdb 1px solid; HEIGHT: 280px; BORDER-RIGHT: #dbdbdb 1px solid; WIDTH: 304px; BORDER-BOTTOM: #dbdbdb 1px solid; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; PADDING-LEFT: 1px; BORDER-LEFT: #dbdbdb 1px solid; PADDING-RIGHT: 1px
+}
+#imgPlay .imgs LI {
+	POSITION: relative; FLOAT: left
+}
+#imgPlay .imgs {
+	WIDTH: 1848px
+}
+#imgPlay .btn {
+	BORDER-TOP: #dbdbdb 1px; BORDER-RIGHT: #dbdbdb 1px solid; WIDTH: 300px; BORDER-BOTTOM: #dbdbdb 1px solid; COLOR: #000; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 3px; BORDER-LEFT: #dbdbdb 1px solid; PADDING-RIGHT: 3px
+}
+#imgPlay .btn A {
+	HEIGHT: 29px; WIDTH: 112px; DISPLAY: block
+}
+#imgPlay .btn A:hover {
+	
+}
+#imgPlay .prev {
+	CURSOR: pointer; HEIGHT: 81px; WIDTH: 46px; POSITION: absolute; LEFT: 1px; TOP: 110px; TEXT-INDENT: -9999px
+}
+#imgPlay .next {
+	CURSOR: pointer; HEIGHT: 81px; WIDTH: 46px; POSITION: absolute; LEFT: 1px; TOP: 110px; TEXT-INDENT: -9999px
+}
+#imgPlay .next {
+	RIGHT: 1px; BACKGROUND-POSITION: right 0px; LEFT: auto
+}
+#imgPlay .num {
+	HEIGHT: 19px; POSITION: absolute; LEFT: 400px; DISPLAY: inline; TOP: 255px
+}
+#imgPlay .num SPAN {
+	OVERFLOW: hidden; CURSOR: pointer; HEIGHT: 13px; WIDTH: 13px; BACKGROUND: url(img/imgPlayer.png) no-repeat left -13px; MARGIN: 0px 2px; DISPLAY: inline-block; LINE-HEIGHT: 0
+}
+#imgPlay .num SPAN.on {
+	BACKGROUND-POSITION: left top
+}
+#imgPlay .num .lc {
+	HEIGHT: 16px; WIDTH: 13px; BACKGROUND: url(img/lc.png) no-repeat; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 3px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+#imgPlay .num .mc {
+	HEIGHT: 16px; WIDTH: 13px; BACKGROUND: url(img/lc.png) no-repeat; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 3px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+#imgPlay .num .rc {
+	HEIGHT: 16px; WIDTH: 13px; BACKGROUND: url(img/lc.png) no-repeat; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 3px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+#imgPlay .num .mc {
+	BACKGROUND: url(img/mc.png) repeat-x
+}
+#imgPlay .num .rc {
+	BACKGROUND: url(img/rc.png) no-repeat
+}
+#imgPlay #numInner {
+	BACKGROUND: none transparent scroll repeat 0% 0%; POSITION: absolute; PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 3px; PADDING-LEFT: 0px; TOP: 255px; PADDING-RIGHT: 0px
+}
+#imgPlay .btn .picatext P A {
+	OVERFLOW: hidden; FONT-SIZE: 12px; HEIGHT: auto; WIDTH: 300px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis; FONT-WEIGHT: bold; COLOR: #1345a3; DISPLAY: inline; -o-text-overflow: ellipsis
+}
+#imgPlay .btn .picatext P SPAN {
+	WIDTH: 290px; COLOR: #666666
+}
+#imgPlay .btn .picatext P SPAN A {
+	FONT-WEIGHT: normal; COLOR: #ccc
+}
+#imgPlay .btn .picatext {
+	BORDER-TOP-STYLE: none; BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 15px; PADDING-TOP: 8px; BORDER-RIGHT-STYLE: none; PADDING-LEFT: 5px; BORDER-LEFT-STYLE: none; MARGIN-TOP: 0px; PADDING-RIGHT: 5px; _padding: 8px 5px 15px 5px; _margin-top: 0px
+}
+.text_left .in_text {
+	MARGIN-BOTTOM: 5px
+}
+.text_left .in_text .title {
+	HEIGHT: 32px; WIDTH: 695px; BACKGROUND: url(img/ditu.png) no-repeat left -103px; POSITION: relative; COLOR: #1345a3; PADDING-LEFT: 28px; LINE-HEIGHT: 32px; _width: 667px
+}
+.text_left .in_text .title SPAN {
+	FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.text_left .in_text .title A {
+	RIGHT: 40px; POSITION: absolute; COLOR: #1345a3; TOP: 0px; _right: 20px
+}
+.text_left .in_text .in_body {
+	BORDER-TOP: #e7f1f9 1px; HEIGHT: auto; BORDER-RIGHT: #e7f1f9 1px solid; WIDTH: 693px; BORDER-BOTTOM: #e7f1f9 1px solid; BORDER-LEFT: #e7f1f9 1px solid; _height: 50px; _width: 693px
+}
+.text_left .in_text .in_body .in_body_left .picatext P.text {
+	OVERFLOW: hidden; WIDTH: 264px; TEXT-OVERFLOW: ellipsis; MARGIN-LEFT: 0px; _margin-left: 10px; -o-text-overflow: ellipsis; _width: 260px
+}
+.text_left .in_text .in_body .in_body_left .picatext {
+	MARGIN-BOTTOM: 5px
+}
+.text_left .in_text .in_body .in_body_left .picatext P.text A {
+	COLOR: #cc0000
+}
+.text_left .in_text .in_body .in_body_left .picatext P.text A.xq {
+	FONT-SIZE: 12px; FONT-WEIGHT: normal; COLOR: #1345a3
+}
+.text_left .in_text .in_body .in_body_left {
+	WIDTH: 373px; PADDING-BOTTOM: 0px; PADDING-TOP: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+.text_left .in_text .in_body .in_body_left {
+	FLOAT: left
+}
+.text_left .in_text .in_body .in_body_right {
+	FLOAT: left
+}
+.text_left .in_text .in_body .in_body_right UL LI {
+	OVERFLOW: hidden; WIDTH: 273px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis; LINE-HEIGHT: 22px; -o-text-overflow: ellipsis
+}
+.text_left .in_text .in_body .in_body_right UL LI A {
+	FONT-SIZE: 14px
+}
+.text_left .in_text .in_body .in_body_right {
+	PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+.text_left .in_text .in_body UL.notfix {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 5px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+.text_left .in_text .in_body UL.notfix LI {
+	FONT-SIZE: 14px; HEIGHT: 30px; BORDER-BOTTOM: #ecf0f7 1px dashed; POSITION: relative; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; LINE-HEIGHT: 30px; PADDING-RIGHT: 10px
+}
+.text_left .in_text .in_body UL.notfix LI EM {
+	COLOR: #999; FONT-STYLE: normal; MARGIN: 0px 2px
+}
+.text_left .in_text .in_body UL.notfix LI A.text {
+	OVERFLOW: hidden; WIDTH: 400px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis; COLOR: #1345a3; MARGIN-LEFT: 5px; -o-text-overflow: ellipsis
+}
+.text_left .in_text .in_body UL.notfix LI A:hover {
+	COLOR: #cc0000
+}
+.text_left .in_text .in_body UL.notfix LI EM {
+	FLOAT: left
+}
+.text_left .in_text .in_body UL.notfix LI A {
+	FLOAT: left
+}
+.text_left .in_text .in_body UL.notfix LI SPAN {
+	FONT-SIZE: 12px; FLOAT: right; COLOR: #999999
+}
+.text_left .in_text .in_body UL.notfix LI A.y {
+	COLOR: #cc0000
+}
+.text_left .in_text .in_body UL.notfix LI A.jin {
+	BACKGROUND: url(img/gif-0543.gif) no-repeat left 50%; PADDING-LEFT: 25px; DISPLAY: block
+}
+.text_left .in_text .in_body .difen {
+	HEIGHT: 49px; BACKGROUND: url(img/fybg.gif) repeat-x; PADDING-TOP: 15px
+}
+.text_left .in_text .in_body .difen .fy {
+	MARGIN: 0px
+}
+.text_left .in_text .titles SPAN {
+	FONT-SIZE: 12px
+}
+.zxlink {
+	MARGIN-TOP: -5px; _margin-top: -5px
+}
+.link_logo {
+	BORDER-TOP: #dfeefb 1px; HEIGHT: 42px; BORDER-RIGHT: #dfeefb 1px solid; BACKGROUND: url(img/linktopbg.gif) repeat-x; BORDER-BOTTOM: #dfeefb 1px; PADDING-TOP: 10px; BORDER-LEFT: #dfeefb 1px solid
+}
+.link_logo A {
+	FLOAT: left; MARGIN: 0px 0px 0px 10px; DISPLAY: block
+}
+.link_text {
+	BORDER-TOP: #deeefb 1px; HEIGHT: 24px; BORDER-RIGHT: #deeefb 1px solid; BACKGROUND: #fcfeff; BORDER-BOTTOM: #deeefb 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #deeefb 1px solid; LINE-HEIGHT: 24px
+}
+.link_text A {
+	WHITE-SPACE: nowrap; MARGIN: 0px 5px
+}
+.pc_bdtop {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.lie {
+	WIDTH: 320px; FLOAT: left; MARGIN: 5px 13px; _margin: 5px 8px
+}
+.lie .titles {
+	MARGIN-BOTTOM: 2px; BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.picatext .lie .titles {
+	MARGIN-BOTTOM: 5px
+}
+.lie .titles A {
+	FONT-SIZE: 14px; FONT-WEIGHT: bold; COLOR: #cc0000
+}
+.lie .liebd A IMG {
+	BORDER-TOP: #cccccc 1px solid; HEIGHT: 70px; BORDER-RIGHT: #cccccc 1px solid; WIDTH: 83px; BORDER-BOTTOM: #cccccc 1px solid; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; PADDING-LEFT: 2px; BORDER-LEFT: #cccccc 1px solid; DISPLAY: block; PADDING-RIGHT: 2px
+}
+.picatext .lie .liebd A {
+	MARGIN: 0px 10px 0px 0px
+}
+.lie .liebd A {
+	FLOAT: left; MARGIN: 5px 10px 0px 0px; DISPLAY: block
+}
+.lie .liebd P {
+	COLOR: #333333
+}
+.lie .liebd P A.xp {
+	FONT-SIZE: 12px; FLOAT: none; FONT-WEIGHT: normal; COLOR: #1345a3; MARGIN: 0px 5px; DISPLAY: inline
+}
+.index_content .left .in_text .pc_bdbtm {
+	BORDER-TOP: #999 1px dashed; WIDTH: 660px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 0px; MARGIN: 0px auto; PADDING-RIGHT: 0px
+}
+.index_content .left .in_text .pc_bdbtm A {
+	OVERFLOW: hidden; WIDTH: 220px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis; FLOAT: left; COLOR: #006600; MARGIN-LEFT: 0px; DISPLAY: block; -o-text-overflow: ellipsis; _width: 218px
+}
+.plnew {
+	BORDER-TOP: #daecfa 1px solid; BORDER-RIGHT: #daecfa 1px solid; BACKGROUND: url(img/pltitlebg.gif) repeat-x; BORDER-BOTTOM: #daecfa 1px solid; POSITION: relative; BORDER-LEFT: #daecfa 1px solid
+}
+.plnew .title {
+	HEIGHT: 33px; BACKGROUND: url(img/pltitlebg.gif) repeat-x; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px
+}
+.plnew .title A {
+	FONT-SIZE: 14px; HEIGHT: 23px; WIDTH: 89px; BACKGROUND: url(img/plqie.gif) no-repeat; FLOAT: left; FONT-WEIGHT: bold; COLOR: #1345a3; TEXT-ALIGN: center; PADDING-TOP: 10px; DISPLAY: block
+}
+.plnew .title A.active {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #cc0000
+}
+.plnew .title A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #cc0000
+}
+.plnew .title A.num {
+	FONT-SIZE: 12px; WIDTH: auto; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+.plnew .title P {
+	FLOAT: right; MARGIN-TOP: 10px
+}
+.plnew .title P EM {
+	FLOAT: left; FONT-STYLE: normal
+}
+.plnew .title P SPAN {
+	FLOAT: left; COLOR: #666666; MARGIN: 0px 2px
+}
+.plnew .title P EM {
+	FLOAT: left; COLOR: #666666; MARGIN: 0px 2px
+}
+.plnew .edit {
+	WIDTH: 160px; RIGHT: 20px; POSITION: absolute; COLOR: #999999; LINE-HEIGHT: 22px; TOP: 50px
+}
+.pl_line {
+	WIDTH: 650px; BORDER-BOTTOM: #999 1px dashed; MARGIN: 5px 0px
+}
+.pl_line P SPAN {
+	FLOAT: left
+}
+.pl_line P B {
+	FLOAT: left
+}
+.pl_line P B {
+	FONT-WEIGHT: normal; COLOR: #1345a3
+}
+.pl_line P SPAN.time {
+	FLOAT: right; COLOR: #666666; FONT-STYLE: normal; MARGIN: 0px 5px
+}
+.pl_line P EM {
+	FLOAT: right; COLOR: #666666; FONT-STYLE: normal; MARGIN: 0px 5px
+}
+.pl_line P {
+	CLEAR: both; LINE-HEIGHT: 22px
+}
+.sh_table {
+	BORDER-TOP: #ceeaf7 1px solid; BORDER-RIGHT: #ceeaf7 1px solid; BACKGROUND: url(img/search_03.gif) repeat-x; BORDER-BOTTOM: #ceeaf7 1px solid; BORDER-LEFT: #ceeaf7 1px solid
+}
+.sh_table .title {
+	BORDER-BOTTOM: #ccc 1px dashed; PADDING-BOTTOM: 10px
+}
+.sh_table B {
+	COLOR: #cc0000
+}
+.search_text {
+	BORDER-BOTTOM: #ccc 1px dashed; PADDING-BOTTOM: 10px; MARGIN: 10px 0px
+}
+.search_text P {
+	FONT-SIZE: 14px; POSITION: relative; FONT-WEIGHT: bold; COLOR: #1345a3
+}
+.search_text P B {
+	COLOR: #cc0000
+}
+.search_text P B A {
+	COLOR: #cc0000
+}
+.search_text P EM.datetime {
+	FONT-SIZE: 12px; RIGHT: 0px; POSITION: absolute; FONT-WEIGHT: normal; COLOR: #999999; FONT-STYLE: normal; TOP: 0px; _right: 20px
+}
+.pat {
+	MARGIN-TOP: 10px
+}
+.pat .s_pic A IMG {
+	HEIGHT: 76px; WIDTH: 86px; DISPLAY: block
+}
+.pat .s_pic A {
+	BORDER-TOP: #cccccc 1px solid; HEIGHT: 76px; BORDER-RIGHT: #cccccc 1px solid; WIDTH: 86px; BORDER-BOTTOM: #cccccc 1px solid; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; PADDING-LEFT: 2px; BORDER-LEFT: #cccccc 1px solid; DISPLAY: block; PADDING-RIGHT: 2px
+}
+.pat .s_pic {
+	FLOAT: left
+}
+.pat .s_text {
+	FLOAT: left
+}
+.pat .s_text {
+	WIDTH: 836px; MARGIN-LEFT: 10px
+}
+.pat .s_text P {
+	FONT-SIZE: 12px; FONT-WEIGHT: normal; COLOR: #333333; LINE-HEIGHT: 20px
+}
+.pat .s_text P EM {
+	COLOR: #1345a3; FONT-STYLE: normal
+}
+.sh_table .fy {
+	HEIGHT: 41px; BACKGROUND: url(img/fed_03.gif) repeat-x; MARGIN: 0px; LINE-HEIGHT: 41px
+}
+#moods {
+	WIDTH: 540px; POSITION: relative; MARGIN: 0px auto; DISPLAY: block
+}
+#moods B {
+	RIGHT: 0px; POSITION: absolute; TOP: 0px; _right: 0px; _top: 0px
+}
+.new_f {
+	BORDER-TOP: #dae2f1 1px solid; HEIGHT: 22px; BORDER-RIGHT: #dae2f1 1px solid; BORDER-BOTTOM: #dae2f1 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 5px; PADDING-LEFT: 10px; BORDER-LEFT: #dae2f1 1px solid; MARGIN-TOP: 10px; PADDING-RIGHT: 10px; _height: 15px
+}
+.new_f .close {
+	FLOAT: left
+}
+.new_f .share {
+	FLOAT: right
+}
+.new_f .share SPAN {
+	FLOAT: left; DISPLAY: block; MARGIN-RIGHT: 0px; _margin-right: 0px
+}
+.new_f .share A {
+	FLOAT: left; DISPLAY: block; MARGIN-RIGHT: 0px; _margin-right: 0px
+}
+.new_f .share SPAN {
+	FONT-SIZE: 12px; HEIGHT: 18px; DISPLAY: block; LINE-HEIGHT: 20px; MARGIN-RIGHT: 5px; _line-height: 20px
+}
+.new_f .close A {
+	FONT-SIZE: 12px; HEIGHT: 16px; BACKGROUND: url(img/icons.gif) no-repeat -214px top; FLOAT: left; PADDING-LEFT: 15px; DISPLAY: block; MARGIN-RIGHT: 15px
+}
+.new_f .close A.print {
+	BACKGROUND: url(img/icons.gif) no-repeat left top; PADDING-LEFT: 20px
+}
+.new_f .close A.copy {
+	BACKGROUND: url(img/icons.gif) no-repeat -62px top; PADDING-LEFT: 20px
+}
+.new_f .close A.colle {
+	BACKGROUND: url(img/icons.gif) no-repeat -149px top; PADDING-LEFT: 17px
+}
+.lisofttext P.lj {
+	MARGIN: -10px 0px 0px
+}
+.lisofttext P.lj A {
+	FONT-SIZE: 12px
+}
