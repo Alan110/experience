@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	.d1{width: 100px;height: 100px;background-color: red;position: absolute;top: 100px;left: 100px;}
+	#d2{width: 500px;height: 500px;border: 1px solid; margin: 0 auto;position: relative;}
+	</style>
+</head>
+<body>
+	<div id="d2">
+	<div id="d1" class="d1"></div>
+		
+	</div>
+	<script type="text/javascript" src='js/Drag.js'></script>
+	<script type="text/javascript">
+	dragAble({
+		dragId :'d1',
+		// parentId:'d2'
+	})
+	</script>
+</body>
+</html>

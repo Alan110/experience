@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        #d1{width:400px;height: 400px;background-color: red;visibility: hidden;}
+        .focus{font-size: 16px ;font-weight: bold;color: blue;}
+    </style>
+</head>
+<body>
+<p>此插件的设计准则但是 尽可能的灵活</p>
+<p>所以只有2个设置参数，<span class='focus'>触发弹出窗口的对象id</span>，<span class='focus'>和自定义弹出框id></span>（弹出框都的样式都是自定义，本插件不提供默认样式）</p>
+<p>本插件弹出框的水平垂直居中，利用了负margin，所以需要浏览器先行计算弹出框的宽高，所以使用时将弹出框样式代码写到页面内，并写上 <span class='focus'>visibility：hidden</span>属性，display：none；属性，无法计算宽高</p>
+<p>弹出框内 <span class='focus'>所有东西，或者事件都有用户自行决定</span>。插件与内容无关</p>
+
+
+<input type="button" id="btn" value="点我测试" />
+
+<div id="d1">
+    fdsfdsfds
+    <input type="button" id="no" value="取消"/>
+    <input type="button" id="yes" value="确定"/>
+</div>
+
+</body>
+<script src="js/Dialog.js"></script>
+<script type="text/javascript">
+    (function(){
+        var d1 = new dialog({
+            'fireObj':'btn',
+            'dialogId':'d1'
+        });
+
+        document.getElementById('yes').onclick = function () {
+            alert('aa');
+            d1.close();
+        }
+    })()
+
+</script>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	.d1{width: 100px;height: 100px;background-color: red;position: absolute;top: 110px;left: 110px;}
+	#d2{width: 10px ;height: 10px;background-color: blue;position: absolute;right: 0;bottom: 0;cursor: se-resize;}
+	</style>
+</head>
+<body>
+	<div id="d1" class="d1">
+		<div id='d2'></div>
+	</div>
+	<script type="text/javascript" src='js/Resize.js'></script>
+	<script type="text/javascript">
+	resizeAble({
+		resizeObjId :'d1',
+		fireObjId:'d2'
+	})
+	</script>
+</body>
+</html>
