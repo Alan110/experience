@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	.d1{width: 100px;height: 100px;background-color: red;position: absolute;top: 110px;left: 110px;}
+	#d2{width: 500px;height: 500px;border: 1px solid; margin: 0 auto;position: relative;}
+	.doc{font-family: '微软雅黑';font-weight: bold;color: blue;font-size: 16px;}
+	</style>
+</head>
+<body>
+	<pre class="doc">
+		/**
+		 * 唯一参数对象cfg，有以下属性
+		 * resizeId       risize对象id ,需要设置position属性
+		 * parentId     容器对象id 默认为整个窗口,容器对象需要设置position属性
+		 * xAxis        X轴移动 默认true
+		 * yAxis        Y轴移动 默认true
+		 * start        点击时执行事件  this 为fireObj
+		 * move         移动时执行事件  this 为resizeObj
+		 * stop         放开时执行事件  this 为resizeObj
+		 * scroll       到边界时是否滚动默认false （未实现）
+		 * maxWidth     最大宽度  默认参照父元素
+		 * maxHeight    最大高度  默认参照父元素
+		 * minWidth     最小宽度  10
+		 * minHeight    最小高度  10
+		 * synchronous  同步缩放，宽高缩放相等。默认false
+		 * resizePoint  [0,0,1,0] 上右下左 默认只有右下角,4个角拖动时，方向有问题（未实行）
+		 * 
+		 * @return {[type]} [description]
+		 */
+	</pre>
+	<div id="d2" class="d2">
+		<div id="d1" class="d1">
+			
+		</div>	
+	</div>
+	
+	<script type="text/javascript" src='js/Resize.js'></script>
+	<script type="text/javascript">
+	resizeAble({
+		resizeObjId :'d1',
+		parentId:'d2',
+		// minWidth:100,
+		// minHeight:100,
+		// maxWidth:200,
+		// xAxis:false
+		synchronous:true
+	})
+	</script>
+</body>
+</html>

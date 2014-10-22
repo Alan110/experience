@@ -4,19 +4,45 @@
 	<title></title>
 	<style type="text/css">
 	.d1{width: 100px;height: 100px;background-color: red;position: absolute;top: 100px;left: 100px;}
-	#d2{width: 500px;height: 500px;border: 1px solid; margin: 0 auto;position: relative;}
+	.d2{width: 500px;height: 500px;border: 1px solid; margin: 0 auto;position: relative;}
+	.doc{font-family: '微软雅黑';font-weight: bold;color: blue;font-size: 16px;}
 	</style>
 </head>
 <body>
-	<div id="d2">
-	<div id="d1" class="d1"></div>
-		
+	<pre class="doc">
+		* 普通拖拽 核心思想  根据鼠标的绝对位移
+		* 唯一参数对象cfg，有以下属性
+		* dragId       拖拽对象id 
+		* fireObjId    触发拖拽对象id 默认为dragId
+		* parentId     容器对象id 默认为整个窗口,容器对象需要设置position属性
+		* xAxis        X轴移动 默认true
+		* yAxis        Y轴移动 默认true
+		* start        点击时执行事件  this 为fireObj
+		* move         移动时执行事件  this 为dragObj
+		* stop         放开时执行事件  this 为dragObj
+		* scroll       到边界时是否滚动默认false （未实现）
+		* @return {[type]} [description]
+	</pre>
+
+	<div id="d2" class="d2">
+		<div id="d1" class="d1"></div>
 	</div>
 	<script type="text/javascript" src='js/Drag.js'></script>
 	<script type="text/javascript">
 	dragAble({
 		dragId :'d1',
-		// parentId:'d2'
+		parentId:'d2',
+		xAxis:true,
+		yAxis:false,
+		start:function(){
+			console.log('start');
+		},
+		move:function(){
+			console.log('move');
+		},
+		stop:function(){
+			console.log('stop');
+		}
 	})
 	</script>
 </body>
